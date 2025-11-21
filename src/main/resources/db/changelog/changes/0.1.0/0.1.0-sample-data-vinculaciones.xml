@@ -1,0 +1,224 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd                       http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd                       http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet context="dev" author="master" id="00.01.00-vinculacion">
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="22481020" />
+      <column name="fecha_obtencion_categoria" valueDate="2004-11-04" />
+      <column name="departamento_ref" value="E043" />
+      <column name="centro_ref" value="0E07" />
+      <column name="categoria_profesional_id" value="DTI01" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="27477512" />
+      <column name="fecha_obtencion_categoria" valueDate="2007-01-24" />
+      <column name="departamento_ref" value="E063" />
+      <column name="centro_ref" value="0E44" />
+      <column name="categoria_profesional_id" value="DAL01" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="27486472" />
+      <column name="fecha_obtencion_categoria" valueDate="2018-05-08" />
+      <column name="departamento_ref" value="E30A" />
+      <column name="centro_ref" value="0E00" />
+      <column name="categoria_profesional_id" value="FB001" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="29062264" />
+      <column name="fecha_obtencion_categoria" valueDate="2010-04-05" />
+      <column name="departamento_ref" value="CE37" />
+      <column name="centro_ref" value="0E37" />
+      <column name="categoria_profesional_id" value="FC001" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="27453914" />
+      <column name="fecha_obtencion_categoria" valueDate="2005-12-04" />
+      <column name="departamento_ref" value="E429" />
+      <column name="centro_ref" value="0E00" />
+      <column name="categoria_profesional_id" value="FA001" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="48517010" />
+      <column name="fecha_obtencion_categoria" valueDate="2021-11-24" />
+      <column name="departamento_ref" value="E020" />
+      <column name="centro_ref" value="0E06" />
+      <column name="categoria_profesional_id" value="DCD01" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="52364567" />
+      <column name="fecha_obtencion_categoria" valueDate="2021-09-03" />
+      <column name="departamento_ref" value="E093" />
+      <column name="centro_ref" value="0E37" />
+      <column name="categoria_profesional_id" value="DAL12" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="22932567" />
+      <column name="fecha_obtencion_categoria" valueDate="1995-10-14" />
+      <column name="departamento_ref" value="E011" />
+      <column name="centro_ref" value="0E04" />
+      <column name="categoria_profesional_id" value="DCA01" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="02221287" />
+      <column name="fecha_obtencion_categoria" valueDate="2016-01-01" />
+      <column name="departamento_ref" value="E0B2" />
+      <column name="centro_ref" value="0E04" />
+      <column name="categoria_profesional_id" value="DCA01" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="33485943" />
+      <column name="fecha_obtencion_categoria" valueDate="2016-02-07" />
+      <column name="departamento_ref" value="E069" />
+      <column name="centro_ref" value="0E27" />
+      <column name="categoria_profesional_id" value="DAL12" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="44751711" />
+      <column name="fecha_obtencion_categoria" valueDate="2022-04-17" />
+      <column name="departamento_ref" value="E073" />
+      <column name="centro_ref" value="0E30" />
+      <column name="categoria_profesional_id" value="DSU01" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="27438707" />
+      <column name="fecha_obtencion_categoria" valueDate="2009-10-01" />
+      <column name="departamento_ref" value="E65G" />
+      <column name="centro_ref" value="0E00" />
+      <column name="categoria_profesional_id" value="L4038" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="01117902" />
+      <column name="fecha_obtencion_categoria" valueDate="2005-09-07" />
+      <column name="departamento_ref" value="E70E" />
+      <column name="centro_ref" value="0E00" />
+      <column name="categoria_profesional_id" value="FC015" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="27426657" />
+      <column name="fecha_obtencion_categoria" valueDate="1988-12-21" />
+      <column name="departamento_ref" value="E016" />
+      <column name="centro_ref" value="0E37" />
+      <column name="categoria_profesional_id" value="DTI02" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="01925489" />
+      <column name="fecha_obtencion_categoria" valueDate="2021-12-18" />
+      <column name="departamento_ref" value="E0B7" />
+      <column name="centro_ref" value="0E06" />
+      <column name="categoria_profesional_id" value="DCD01" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="27484268" />
+      <column name="fecha_obtencion_categoria" valueDate="2017-07-08" />
+      <column name="departamento_ref" value="E091" />
+      <column name="centro_ref" value="0E05" />
+      <column name="categoria_profesional_id" value="DCA01" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="28998299" />
+      <column name="fecha_obtencion_categoria" valueDate="2018-08-19" />
+      <column name="departamento_ref" value="E057" />
+      <column name="centro_ref" value="0E04" />
+      <column name="categoria_profesional_id" value="DCA01" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="48495442" />
+      <column name="fecha_obtencion_categoria" valueDate="2022-05-26" />
+      <column name="departamento_ref" value="E096" />
+      <column name="centro_ref" value="0E22" />
+      <column name="categoria_profesional_id" value="L2003" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="13791002" />
+      <column name="fecha_obtencion_categoria" valueDate="2008-01-25" />
+      <column name="departamento_ref" value="E084" />
+      <column name="centro_ref" value="0E22" />
+      <column name="categoria_profesional_id" value="DTI01" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="48700526" />
+      <column name="fecha_obtencion_categoria" valueDate="2023-03-23" />
+      <column name="departamento_ref" value="NULL" />
+      <column name="centro_ref" value="0E01" />
+      <column name="categoria_profesional_id" value="LPR25" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="48544181" />
+      <column name="fecha_obtencion_categoria" valueDate="2019-07-11" />
+      <column name="departamento_ref" value="E016" />
+      <column name="centro_ref" value="0E37" />
+      <column name="categoria_profesional_id" value="DTI01" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="48434138" />
+      <column name="fecha_obtencion_categoria" valueDate="2011-05-05" />
+      <column name="departamento_ref" value="E90L" />
+      <column name="centro_ref" value="0E00" />
+      <column name="categoria_profesional_id" value="FB037" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="21062358" />
+      <column name="fecha_obtencion_categoria" valueDate="2023-04-25" />
+      <column name="departamento_ref" value="NULL" />
+      <column name="centro_ref" value="0E03" />
+      <column name="categoria_profesional_id" value="LIL01" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="74865934" />
+      <column name="fecha_obtencion_categoria" valueDate="2018-06-04" />
+      <column name="departamento_ref" value="E020" />
+      <column name="centro_ref" value="0E06" />
+      <column name="categoria_profesional_id" value="DTI01" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="49174970" />
+      <column name="fecha_obtencion_categoria" valueDate="2023-02-13" />
+      <column name="departamento_ref" value="NULL" />
+      <column name="centro_ref" value="0E01" />
+      <column name="categoria_profesional_id" value="LPR21" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="77504284" />
+      <column name="fecha_obtencion_categoria" valueDate="2018-02-12" />
+      <column name="departamento_ref" value="E005" />
+      <column name="centro_ref" value="0E01" />
+      <column name="categoria_profesional_id" value="DCA01" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="34827606" />
+      <column name="fecha_obtencion_categoria" valueDate="2020-06-20" />
+      <column name="departamento_ref" value="E024" />
+      <column name="centro_ref" value="0E03" />
+      <column name="categoria_profesional_id" value="FC053" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="00675182" />
+      <column name="fecha_obtencion_categoria" valueDate="2018-05-26" />
+      <column name="departamento_ref" value="E0B8" />
+      <column name="centro_ref" value="0E07" />
+      <column name="categoria_profesional_id" value="DCA04" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="00391433" />
+      <column name="fecha_obtencion_categoria" valueDate="1996-01-24" />
+      <column name="departamento_ref" value="E024" />
+      <column name="centro_ref" value="0E03" />
+      <column name="categoria_profesional_id" value="DTI01" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="34798493" />
+      <column name="fecha_obtencion_categoria" valueDate="2023-08-18" />
+      <column name="departamento_ref" value="E443" />
+      <column name="centro_ref" value="0E00" />
+      <column name="categoria_profesional_id" value="FC001" />
+    </insert>
+    <insert tableName="vinculacion">
+      <column name="persona_id" value="03839481" />
+      <column name="fecha_obtencion_categoria" valueDate="2015-02-13" />
+      <column name="departamento_ref" value="E0C6" />
+      <column name="centro_ref" value="0E43" />
+      <column name="categoria_profesional_id" value="DAL12" />
+    </insert>
+  </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,199 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+  xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+                      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd
+                      http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-1">
+    <createTable tableName="sexo">
+      <column name="id" type="VARCHAR(1)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="sexoPK" />
+      </column>
+      <column name="nombre" type="VARCHAR(255)" />
+    </createTable>
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-2">
+    <createTable tableName="tipo_documento">
+      <column name="id" type="VARCHAR(1)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="PK_TIPO_DOCUMENTO_ID" />
+      </column>
+      <column name="nombre" type="VARCHAR(500)" />
+    </createTable>
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-3">
+    <createTable tableName="colectivo">
+      <column name="id" type="VARCHAR(10)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="PK_COLECTIVO_ID" />
+      </column>
+      <column name="nombre" type="VARCHAR(255)" />
+    </createTable>
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-4">
+    <createTable tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" type="VARCHAR(10)" />
+      <column name="tipo_colectivo" type="VARCHAR(50)" />
+    </createTable>
+
+    <addForeignKeyConstraint baseColumnNames="colectivo_id" baseTableName="colectivo_tipocolectivo"
+      constraintName="FK_COLECTIVOTIPOCOLECTIVO_COLECTIVO" deferrable="false"
+      initiallyDeferred="false"
+      referencedColumnNames="id" referencedTableName="colectivo" validate="true" />
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-5">
+    <createTable tableName="persona">
+      <column name="id" type="VARCHAR(255)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="personaPK" />
+      </column>
+      <column name="apellidos" type="VARCHAR(255)" />
+      <column name="empresa_ref" type="VARCHAR(255)" />
+      <column name="empresa_propia_ref" type="VARCHAR(255)" />
+      <column name="nombre" type="VARCHAR(255)" />
+      <column name="numero_documento" type="VARCHAR(255)" />
+      <column name="sexo_id" type="VARCHAR(1)" />
+      <column name="tipo_documento_id" type="VARCHAR(1)">
+        <constraints nullable="false" />
+      </column>
+      <column name="personal_propio" type="BOOLEAN" />
+      <column name="colectivo_id" type="VARCHAR(10)" />
+      <column name="emails" type="VARCHAR(255)" />
+    </createTable>
+
+    <addForeignKeyConstraint baseColumnNames="colectivo_id" baseTableName="persona"
+      constraintName="FK_PERSONA_COLECTIVO" deferrable="false"
+      initiallyDeferred="false"
+      referencedColumnNames="id" referencedTableName="colectivo" validate="true" />
+
+    <addForeignKeyConstraint baseColumnNames="tipo_documento_id" baseTableName="persona"
+      constraintName="FK_PERSONA_TIPO_DOCUMENTO" deferrable="false"
+      initiallyDeferred="false"
+      referencedColumnNames="id" referencedTableName="tipo_documento" validate="true" />
+
+    <addForeignKeyConstraint baseColumnNames="sexo_id" baseTableName="persona"
+      constraintName="FK_PERSONA_SEXO" deferrable="false"
+      initiallyDeferred="false"
+      referencedColumnNames="id" referencedTableName="sexo" validate="true" />
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-6">
+    <createTable tableName="datos_personales">
+      <column name="persona_id" type="VARCHAR(255)" />
+      <column name="fecha_nacimiento" type="DATE" />
+      <column name="pais_nacimiento_ref" type="VARCHAR(255)" />
+      <column name="comunidad_nacimiento_ref" type="VARCHAR(255)" />
+      <column name="ciudad_nacimiento" type="VARCHAR(255)" />
+    </createTable>
+
+    <addForeignKeyConstraint baseColumnNames="persona_id" baseTableName="datos_personales"
+      constraintName="FK_DATOSPERSONALES_PERSONA" deferrable="false"
+      initiallyDeferred="false"
+      referencedColumnNames="id" referencedTableName="persona" validate="true" />
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-7">
+    <createTable tableName="datos_contacto">
+      <column name="persona_id" type="VARCHAR(255)" />
+      <column name="pais_contacto_ref" type="VARCHAR(255)" />
+      <column name="comunidad_contacto_ref" type="VARCHAR(255)" />
+      <column name="provincia_contacto_ref" type="VARCHAR(255)" />
+      <column name="ciudad_contacto" type="VARCHAR(255)" />
+      <column name="direccion_contacto" type="VARCHAR(255)" />
+      <column name="codigo_postal_contacto" type="VARCHAR(255)" />
+      <column name="emails" type="VARCHAR(255)" />
+      <column name="telefonos" type="VARCHAR(255)" />
+      <column name="moviles" type="VARCHAR(255)" />
+    </createTable>
+
+    <addForeignKeyConstraint baseColumnNames="persona_id" baseTableName="datos_contacto"
+      constraintName="FK_DATOSCONTACTO_PERSONA" deferrable="false"
+      initiallyDeferred="false"
+      referencedColumnNames="id" referencedTableName="persona" validate="true" />
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-8">
+    <createTable tableName="categoria_profesional">
+      <column name="id" type="VARCHAR(5)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="PK_CATEGORIA_PROFESIONAL_ID" />
+      </column>
+      <column name="nombre" type="VARCHAR(100)" />
+    </createTable>
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-9">
+    <createTable tableName="nivel_academico">
+      <column name="id" type="VARCHAR(10)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="PK_NIVEL_ACADEMICO_ID" />
+      </column>
+      <column name="nombre" type="VARCHAR(50)" />
+    </createTable>
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-10">
+    <createTable tableName="datos_academicos">
+      <column name="persona_id" type="VARCHAR(255)" />
+      <column name="fecha_obtencion" type="DATE" />
+      <column name="nivel_academico_id" type="VARCHAR(10)" />
+    </createTable>
+
+    <addForeignKeyConstraint baseColumnNames="persona_id" baseTableName="datos_academicos"
+      constraintName="FK_DATOSACADEMICOS_PERSONA" deferrable="false"
+      initiallyDeferred="false"
+      referencedColumnNames="id" referencedTableName="persona" validate="true" />
+
+    <addForeignKeyConstraint baseColumnNames="nivel_academico_id" baseTableName="datos_academicos"
+      constraintName="FK_DATOSACADEMICOS_NIVELACADEMICO" deferrable="false"
+      initiallyDeferred="false"
+      referencedColumnNames="id" referencedTableName="nivel_academico" validate="true" />
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-11">
+    <createTable tableName="vinculacion">
+      <column name="persona_id" type="VARCHAR(255)" />
+      <column name="categoria_profesional_id" type="VARCHAR(5)" />
+      <column name="fecha_obtencion_categoria" type="DATE" />
+      <column name="departamento_ref" type="VARCHAR(255)" />
+      <column name="centro_ref" type="VARCHAR(255)" />
+      <column name="area_conocimiento_ref" type="VARCHAR(255)" />
+      <column name="empresa_ref" type="VARCHAR(255)" />
+      <column name="personal_propio" type="BOOLEAN" />
+      <column name="entidad_propia_ref" type="VARCHAR(255)" />
+    </createTable>
+
+    <addForeignKeyConstraint baseColumnNames="persona_id" baseTableName="vinculacion"
+      constraintName="FK_VINCULACION_PERSONA" deferrable="false"
+      initiallyDeferred="false"
+      referencedColumnNames="id" referencedTableName="persona" validate="true" />
+
+    <addForeignKeyConstraint baseColumnNames="categoria_profesional_id" baseTableName="vinculacion"
+      constraintName="FK_VINCULACION_CATEGORIAPROFESIONAL" deferrable="false"
+      initiallyDeferred="false"
+      referencedColumnNames="id" referencedTableName="categoria_profesional" validate="true" />
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-12">
+    <createTable tableName="historico_categoria_profesional">
+      <column name="persona_id" type="VARCHAR(255)" />
+      <column name="categoria_profesional_id" type="VARCHAR(5)" />
+      <column name="fecha_obtencion" type="DATE" />
+    </createTable>
+
+    <addForeignKeyConstraint baseColumnNames="persona_id"
+      baseTableName="historico_categoria_profesional"
+      constraintName="FK_HISTORICOCATEGORIAPROFESIONAL_PERSONA" deferrable="false"
+      initiallyDeferred="false"
+      referencedColumnNames="id" referencedTableName="persona" validate="true" />
+
+    <addForeignKeyConstraint baseColumnNames="categoria_profesional_id"
+      baseTableName="historico_categoria_profesional"
+      constraintName="FK_HISTORICOCATEGORIAPROFESIONAL_CATEGORIAPROFESIONAL" deferrable="false"
+      initiallyDeferred="false"
+      referencedColumnNames="id" referencedTableName="categoria_profesional" validate="true" />
+  </changeSet>
+
+</databaseChangeLog>

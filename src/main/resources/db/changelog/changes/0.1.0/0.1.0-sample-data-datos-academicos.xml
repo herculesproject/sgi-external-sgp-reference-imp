@@ -1,0 +1,217 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd                       http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd                       http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet context="dev" author="master" id="00.01.00-datos-academicos">
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="22481020" />
+      <column name="fecha_obtencion" valueDate="NULL" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="27477512" />
+      <column name="fecha_obtencion" valueDate="1992-11-04" />
+      <column name="nivel_academico_id" value="3" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="34784622" />
+      <column name="fecha_obtencion" valueDate="2004-01-24" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="27486472" />
+      <column name="fecha_obtencion" valueDate="1992-05-08" />
+      <column name="nivel_academico_id" value="3" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="34977558" />
+      <column name="fecha_obtencion" valueDate="NULL" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="23272431" />
+      <column name="fecha_obtencion" valueDate="2017-04-05" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="44294844" />
+      <column name="fecha_obtencion" valueDate="2007-12-04" />
+      <column name="nivel_academico_id" value="2" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="29040124" />
+      <column name="fecha_obtencion" valueDate="1993-11-24" />
+      <column name="nivel_academico_id" value="2" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="22423406" />
+      <column name="fecha_obtencion" valueDate="NULL" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="77503584" />
+      <column name="fecha_obtencion" valueDate="1989-09-03" />
+      <column name="nivel_academico_id" value="2" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="27453914" />
+      <column name="fecha_obtencion" valueDate="1996-10-14" />
+      <column name="nivel_academico_id" value="2" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="48517010" />
+      <column name="fecha_obtencion" valueDate="2012-01-01" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="52364567" />
+      <column name="fecha_obtencion" valueDate="1996-02-07" />
+      <column name="nivel_academico_id" value="2" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="22932567" />
+      <column name="fecha_obtencion" valueDate="NULL" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="02221287" />
+      <column name="fecha_obtencion" valueDate="1994-04-17" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="33485943" />
+      <column name="fecha_obtencion" valueDate="2006-10-01" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="44751711" />
+      <column name="fecha_obtencion" valueDate="2004-09-07" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="01925489" />
+      <column name="fecha_obtencion" valueDate="NULL" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="27484268" />
+      <column name="fecha_obtencion" valueDate="NULL" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="28998299" />
+      <column name="fecha_obtencion" valueDate="NULL" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="48495442" />
+      <column name="fecha_obtencion" valueDate="2020-12-21" />
+      <column name="nivel_academico_id" value="B" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="13791002" />
+      <column name="fecha_obtencion" valueDate="NULL" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="15417312" />
+      <column name="fecha_obtencion" valueDate="2012-12-18" />
+      <column name="nivel_academico_id" value="2" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="48396396" />
+      <column name="fecha_obtencion" valueDate="2005-07-08" />
+      <column name="nivel_academico_id" value="2" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="00636981" />
+      <column name="fecha_obtencion" valueDate="NULL" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="48544181" />
+      <column name="fecha_obtencion" valueDate="2011-08-19" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="48434138" />
+      <column name="fecha_obtencion" valueDate="2006-05-26" />
+      <column name="nivel_academico_id" value="2" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="34790617" />
+      <column name="fecha_obtencion" valueDate="1996-01-25" />
+      <column name="nivel_academico_id" value="2" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="21062358" />
+      <column name="fecha_obtencion" valueDate="2022-03-23" />
+      <column name="nivel_academico_id" value="B" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="48509006" />
+      <column name="fecha_obtencion" valueDate="2010-07-11" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="74865934" />
+      <column name="fecha_obtencion" valueDate="NULL" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="18984325" />
+      <column name="fecha_obtencion" valueDate="NULL" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="77504284" />
+      <column name="fecha_obtencion" valueDate="1994-05-05" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="34820652" />
+      <column name="fecha_obtencion" valueDate="2009-04-25" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="34827606" />
+      <column name="fecha_obtencion" valueDate="2003-06-04" />
+      <column name="nivel_academico_id" value="2" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="00675182" />
+      <column name="fecha_obtencion" valueDate="NULL" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="27454146" />
+      <column name="fecha_obtencion" valueDate="1990-02-13" />
+      <column name="nivel_academico_id" value="2" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="74321734" />
+      <column name="fecha_obtencion" valueDate="1999-02-12" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="15480554" />
+      <column name="fecha_obtencion" valueDate="2013-06-20" />
+      <column name="nivel_academico_id" value="B" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="00391433" />
+      <column name="fecha_obtencion" valueDate="NULL" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="34798493" />
+      <column name="fecha_obtencion" valueDate="1996-05-26" />
+      <column name="nivel_academico_id" value="2" />
+    </insert>
+    <insert tableName="datos_academicos">
+      <column name="persona_id" value="22441150" />
+      <column name="fecha_obtencion" valueDate="NULL" />
+      <column name="nivel_academico_id" value="1" />
+    </insert>
+  </changeSet>
+
+</databaseChangeLog>

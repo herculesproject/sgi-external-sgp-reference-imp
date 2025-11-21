@@ -1,0 +1,69 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+  xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+                      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd
+                      http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet context="dev" author="master" id="00.01.00-tipo_documento">
+    <insert tableName="tipo_documento">
+      <column name="id" value="1" />
+      <column name="nombre" value="CIF PERSONAS JURIDICAS: ESPAÑOLAS" />
+    </insert>
+    <insert tableName="tipo_documento">
+      <column name="id" value="2" />
+      <column name="nombre" value="CIF PERSONAS JURIDICAS: EXTRANJERAS" />
+    </insert>
+    <insert tableName="tipo_documento">
+      <column name="id" value="3" />
+      <column name="nombre" value="CIF PERSONAS JURIDICAS: ORGANISMOS ESTATALES" />
+    </insert>
+    <insert tableName="tipo_documento">
+      <column name="id" value="4" />
+      <column name="nombre" value="CIF PERSONAS JURIDICAS: ORGANISMOS LOCALES" />
+    </insert>
+    <insert tableName="tipo_documento">
+      <column name="id" value="5" />
+      <column name="nombre" value="DOCUMENTO SIN CONTROL" />
+    </insert>
+    <insert tableName="tipo_documento">
+      <column name="id" value="6" />
+      <column name="nombre" value="CIF PERSONAS JURIDICAS: EXTRANJERAS NO RESIDENTES" />
+    </insert>
+    <insert tableName="tipo_documento">
+      <column name="id" value="7" />
+      <column name="nombre" value="OTROS TIPOS NO DEFINIDOS EN EL RESTO DE CLAVES" />
+    </insert>
+    <insert tableName="tipo_documento">
+      <column name="id" value="9" />
+      <column name="nombre" value="SIN DOCUMENTO ORIGINAL" />
+    </insert>
+    <insert tableName="tipo_documento">
+      <column name="id" value="C" />
+      <column name="nombre" value="CODIGO DE IDENTIFICACION FISCAL" />
+    </insert>
+    <insert tableName="tipo_documento">
+      <column name="id" value="D" />
+      <column name="nombre" value="DOCUMENTO NACIONAL DE IDENTIDAD" />
+    </insert>
+    <insert tableName="tipo_documento">
+      <column name="id" value="E" />
+      <column name="nombre" value="NUMERO DE IDENTIFICACION PARA EXTRANJEROS" />
+    </insert>
+    <insert tableName="tipo_documento">
+      <column name="id" value="N" />
+      <column name="nombre" value="NUMERO DE IDENTIFICACION FISCAL" />
+    </insert>
+    <insert tableName="tipo_documento">
+      <column name="id" value="U" />
+      <column name="nombre" value="IDENTIFICACION PROPIA UNIVERSITARIA" />
+    </insert>
+    <insert tableName="tipo_documento">
+      <column name="id" value="X" />
+      <column name="nombre" value="IDENTIFICADOR NO VALIDO" />
+    </insert>
+  </changeSet>
+
+</databaseChangeLog>

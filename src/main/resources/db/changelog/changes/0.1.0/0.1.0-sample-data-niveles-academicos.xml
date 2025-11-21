@@ -1,0 +1,61 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+  xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+                      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd
+                      http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet context="dev" author="master" id="00.01.00-nivel_academico">
+    <insert tableName="nivel_academico">
+      <column name="id" value="4" />
+      <column name="nombre" value="BACHILLER, F.P. 2 GRADO" />
+    </insert>
+    <insert tableName="nivel_academico">
+      <column name="id" value="7" />
+      <column name="nombre" value="CERTIFICADO DE ESCOLARIDAD" />
+    </insert>
+    <insert tableName="nivel_academico">
+      <column name="id" value="3" />
+      <column name="nombre" value="DIPLOMADO, ING. TECNICO, F.P. 3" />
+    </insert>
+    <insert tableName="nivel_academico">
+      <column name="id" value="1" />
+      <column name="nombre" value="DOCTOR" />
+    </insert>
+    <insert tableName="nivel_academico">
+      <column name="id" value="5" />
+      <column name="nombre" value="F P 1 GRADO" />
+    </insert>
+    <insert tableName="nivel_academico">
+      <column name="id" value="6" />
+      <column name="nombre" value="GRADUADO ESCOLAR, ESTUDIOS PRIMARIO" />
+    </insert>
+    <insert tableName="nivel_academico">
+      <column name="id" value="B" />
+      <column name="nombre" value="GRADUADO O GRADUADA" />
+    </insert>
+    <insert tableName="nivel_academico">
+      <column name="id" value="D" />
+      <column name="nombre" value="GRADUADO SECUNDARIA" />
+    </insert>
+    <insert tableName="nivel_academico">
+      <column name="id" value="2" />
+      <column name="nombre" value="LICENCIADO, INGENIERO, ARQUITECTO" />
+    </insert>
+    <insert tableName="nivel_academico">
+      <column name="id" value="A" />
+      <column name="nombre" value="MASTER UNIVERSITARIO" />
+    </insert>
+    <insert tableName="nivel_academico">
+      <column name="id" value="9" />
+      <column name="nombre" value="SIN CLASIFICAR" />
+    </insert>
+    <insert tableName="nivel_academico">
+      <column name="id" value="C" />
+      <column name="nombre" value="TECNICO SUPERIOR/FP2" />
+    </insert>
+  </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,218 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+  xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+                      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd
+                      http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet context="dev" author="master" id="00.01.00-colectivo_tipocolectivo">
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="1" />
+      <column name="tipo_colectivo" value="SOLICITANTE_ETICA" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="3" />
+      <column name="tipo_colectivo" value="SOLICITANTE_ETICA" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="4" />
+      <column name="tipo_colectivo" value="SOLICITANTE_ETICA" />
+    </insert>
+
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="2" />
+      <column name="tipo_colectivo" value="EVALUADOR_ETICA" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="3" />
+      <column name="tipo_colectivo" value="EVALUADOR_ETICA" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="4" />
+      <column name="tipo_colectivo" value="EVALUADOR_ETICA" />
+    </insert>
+
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="1" />
+      <column name="tipo_colectivo" value="EQUIPO_TRABAJO_ETICA" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="2" />
+      <column name="tipo_colectivo" value="EQUIPO_TRABAJO_ETICA" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="3" />
+      <column name="tipo_colectivo" value="EQUIPO_TRABAJO_ETICA" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="4" />
+      <column name="tipo_colectivo" value="EQUIPO_TRABAJO_ETICA" />
+    </insert>
+
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="1" />
+      <column name="tipo_colectivo" value="SOLICITANTE_CSP" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="2" />
+      <column name="tipo_colectivo" value="SOLICITANTE_CSP" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="3" />
+      <column name="tipo_colectivo" value="SOLICITANTE_CSP" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="4" />
+      <column name="tipo_colectivo" value="SOLICITANTE_CSP" />
+    </insert>
+
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="2" />
+      <column name="tipo_colectivo" value="RESPONSABLE_ECONOMICO_CSP" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="3" />
+      <column name="tipo_colectivo" value="RESPONSABLE_ECONOMICO_CSP" />
+    </insert>
+
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="1" />
+      <column name="tipo_colectivo" value="AUTOR_INVENCION" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="2" />
+      <column name="tipo_colectivo" value="AUTOR_INVENCION" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="3" />
+      <column name="tipo_colectivo" value="AUTOR_INVENCION" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="4" />
+      <column name="tipo_colectivo" value="AUTOR_INVENCION" />
+    </insert>
+
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="4" />
+      <column name="tipo_colectivo" value="RESPONSABLE_PROYECTO_EXTERNO" />
+    </insert>
+
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="1" />
+      <column name="tipo_colectivo" value="AUTOR_PRC" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="2" />
+      <column name="tipo_colectivo" value="AUTOR_PRC" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="3" />
+      <column name="tipo_colectivo" value="AUTOR_PRC" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="4" />
+      <column name="tipo_colectivo" value="AUTOR_PRC" />
+    </insert>
+
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="1" />
+      <column name="tipo_colectivo" value="DESTINATARIO_COMUNICADO" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="2" />
+      <column name="tipo_colectivo" value="DESTINATARIO_COMUNICADO" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="3" />
+      <column name="tipo_colectivo" value="DESTINATARIO_COMUNICADO" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="4" />
+      <column name="tipo_colectivo" value="DESTINATARIO_COMUNICADO" />
+    </insert>
+
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="1" />
+      <column name="tipo_colectivo" value="PERSONA_AUTORIZADA_GRUPO" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="2" />
+      <column name="tipo_colectivo" value="PERSONA_AUTORIZADA_GRUPO" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="3" />
+      <column name="tipo_colectivo" value="PERSONA_AUTORIZADA_GRUPO" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="4" />
+      <column name="tipo_colectivo" value="PERSONA_AUTORIZADA_GRUPO" />
+    </insert>
+
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="2" />
+      <column name="tipo_colectivo" value="TUTOR_CSP" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="3" />
+      <column name="tipo_colectivo" value="TUTOR_CSP" />
+    </insert>
+
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="1" />
+      <column name="tipo_colectivo" value="MIEMBRO_EQUIPO_EMPRESA_EXPLOTACION_RESULTADOS" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="2" />
+      <column name="tipo_colectivo" value="MIEMBRO_EQUIPO_EMPRESA_EXPLOTACION_RESULTADOS" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="3" />
+      <column name="tipo_colectivo" value="MIEMBRO_EQUIPO_EMPRESA_EXPLOTACION_RESULTADOS" />
+    </insert>
+
+    <insert tableName="colectivo_tipocolectivo">
+      <column name="colectivo_id" value="4" />
+      <column name="tipo_colectivo" value="MIEMBRO_EQUIPO_EMPRESA_EXPLOTACION_RESULTADOS" />
+    </insert>
+  </changeSet>
+
+</databaseChangeLog>

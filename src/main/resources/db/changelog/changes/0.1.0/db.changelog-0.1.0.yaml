@@ -1,0 +1,27 @@
+databaseChangeLog:
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-initial-database.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-sample-data-categorias-profesionales.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-sample-data-niveles-academicos.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-sample-data-colectivos.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-sample-data-colectivos-tipos-colectivos.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-sample-data-sexos.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-sample-data-tipos-documento.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-sample-data-personas.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-sample-data-datos-academicos.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-sample-data-datos-contacto.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-sample-data-datos-personales.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-sample-data-vinculaciones.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-sample-data-historico-categoria-profesional.xml

@@ -1,0 +1,3237 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+  xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+                      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd
+                      http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet context="dev" author="master" id="00.01.00-categoria-profesional">
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA801" />
+      <column name="nombre" value="ABOGADO FISCAL SUSTITUTO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA403" />
+      <column name="nombre" value="ADM. LOCAL TEC. ORIENTACI. ESC. Y PROF." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA402" />
+      <column name="nombre" value="ADM.ESPEC:ECONOMISTA (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC902" />
+      <column name="nombre" value="ADMINISTRATIVA (U.GRANADA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC001" />
+      <column name="nombre" value="ADMINISTRATIVA UNIVERSIDAD DE MURCIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC901" />
+      <column name="nombre" value="ADMINISTRATIVA (U.P.MADRID)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC201" />
+      <column name="nombre" value="ADMINISTRATIVO (A.ESTADO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC401" />
+      <column name="nombre" value="ADMINISTRATIVO (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC101" />
+      <column name="nombre" value="ADMINISTRATIVO (O.AUTONOMOS)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC601" />
+      <column name="nombre" value="ADMINISTRATIVO (SEG. SOCIAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD901" />
+      <column name="nombre" value="AGENTE ADMINISTRACION DE JUSTICIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE402" />
+      <column name="nombre" value="AGENTE CENSAL (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD704" />
+      <column name="nombre" value="AGENTE CENSAL (INE)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD405" />
+      <column name="nombre" value="AGENTE DE EMPADRONAMIENTO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE402" />
+      <column name="nombre" value="AGENTE DE EMPADRONAMIENTO (A. LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE403" />
+      <column name="nombre" value="AGENTE PADRON HABITANTES (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC407" />
+      <column name="nombre" value="AGENTE POLICIA LOCAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4002" />
+      <column name="nombre" value="ALBAÑIL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5001" />
+      <column name="nombre" value="ALBAÑIL CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA801" />
+      <column name="nombre" value="ALFEREZ PROVISIONAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CENS2" />
+      <column name="nombre" value="ALUMNO CICLO 3" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE407" />
+      <column name="nombre" value="ALUMNO TRABAJADOR ESCUELA TALLER (A. LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CENS3" />
+      <column name="nombre" value="ALUMNOS CICLO 1 Y 2" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1001" />
+      <column name="nombre" value="ANALISTA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA303" />
+      <column name="nombre" value="ARQUITECTO SUPERIOR (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2001" />
+      <column name="nombre" value="ARQUITECTO TECNICO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB305" />
+      <column name="nombre" value="ASISTENTE SOCIAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAL12" />
+      <column name="nombre" value="ASOCIADO A TIEMPO PARCIAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAL01" />
+      <column name="nombre" value="ASOCIADO CIENCIAS DE LA SALUD" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB701" />
+      <column name="nombre" value="ATS/DUE INSTITUCIONES SANITARIAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD902" />
+      <column name="nombre" value="AUX. ADMINISTRATIVO (AD. COMUNIDAD CANARIA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD706" />
+      <column name="nombre" value="AUX. ADMINISTRATIVO (U. ALICANTE)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD705" />
+      <column name="nombre" value="AUX. ADMINISTRATIVO (UPCT)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAUXJ" />
+      <column name="nombre" value="AUX. EE.ING. TECNICAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD402" />
+      <column name="nombre" value="AUX. ESCUELA INFANTIL (A. LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD802" />
+      <column name="nombre" value="AUX. TÉCNICO Y LABORATORIOS U. MIGUEL HERNANDEZ" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD401" />
+      <column name="nombre" value="AUXILIAR ADMINISTRATIVA (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD301" />
+      <column name="nombre" value="AUXILIAR ADMINISTRATIVA (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD701" />
+      <column name="nombre" value="AUXILIAR ADMINISTRATIVA (INSALUD/SMS)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD101" />
+      <column name="nombre" value="AUXILIAR ADMINISTRATIVA (O.AUTONOMOS)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD801" />
+      <column name="nombre" value="AUXILIAR ADMINISTRATIVA (U.A.MADRID)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD103" />
+      <column name="nombre" value="AUXILIAR ADMINISTRATIVA (U.CAST-LA MANCHA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD704" />
+      <column name="nombre" value="AUXILIAR ADMINISTRATIVA (UNED)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD703" />
+      <column name="nombre" value="AUXILIAR ADMINISTRATIVA (U.P.MADRID)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD201" />
+      <column name="nombre" value="AUXILIAR ADMINISTRATIVO (A.ESTADO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD001" />
+      <column name="nombre" value="AUXILIAR ADMINISTRATIVO CONT. O INT.(UMU)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L6001" />
+      <column name="nombre" value="AUXILIAR ADMINISTRATIVO CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5003" />
+      <column name="nombre" value="AUXILIAR ADMINISTRATIVO CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD901" />
+      <column name="nombre" value="AUXILIAR ADMINISTRATIVO JUNTA DE ANDALUCIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="P5002" />
+      <column name="nombre" value="AUXILIAR ADMINISTRATIVO P.INVEST." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD601" />
+      <column name="nombre" value="AUXILIAR ADMINISTRATIVO (S.SOCIAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD202" />
+      <column name="nombre" value="AUXILIAR CLASIF. Y REPARTO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC103" />
+      <column name="nombre" value="AUXILIAR DE ARCHIVOS Y BIBLIOTECAS (A.ESTADO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC102" />
+      <column name="nombre" value="AUXILIAR DE ARCHIVOS Y BIBLIOTECAS (O.AUTONOMOS)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC701" />
+      <column name="nombre" value="AUXILIAR DE ARCHIVOS Y BIBLIOTECAS (U.CORDOBA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD404" />
+      <column name="nombre" value="AUXILIAR DE BIBIOLTECAS  (UNIVERSIDADES)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD403" />
+      <column name="nombre" value="AUXILIAR DE BIBLIOTECAS (ADM. LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD201" />
+      <column name="nombre" value="AUXILIAR DE BIBLOTECAS (A.ESTADO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD203" />
+      <column name="nombre" value="AUXILIAR DE CLASIFICACION Y REPARTO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4003" />
+      <column name="nombre" value="AUXILIAR DE CLINICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD304" />
+      <column name="nombre" value="AUXILIAR DE CLINICA (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD301" />
+      <column name="nombre" value="AUXILIAR DE ENFERMERIA (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD602" />
+      <column name="nombre" value="AUXILIAR DE ENFERMERIA (INSALUD)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD603" />
+      <column name="nombre" value="AUXILIAR DE ENFERMERIA (ISSORM)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD604" />
+      <column name="nombre" value="AUXILIAR DE ENFERMERIA (S.VALENCIANO SALUD)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="AUES" />
+      <column name="nombre" value="AUXILIAR DE ESTADÍSTICA INE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD306" />
+      <column name="nombre" value="AUXILIAR DE FARMACIA (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L0099" />
+      <column name="nombre" value="AUXILIAR DE INFORMÁTICA (ADMINISTRACIÓN LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5020" />
+      <column name="nombre" value="AUXILIAR DE SERVICIOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE101" />
+      <column name="nombre" value="AUXILIAR DE SERVICIOS (U.P.CARTAGENA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD707" />
+      <column name="nombre" value="AUXILIAR DE SERVICIOS UPCT" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE701" />
+      <column name="nombre" value="AUXILIAR DE SERVICIOS (U.ROVIRA Y VIRGILI)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD307" />
+      <column name="nombre" value="AUXILIAR EDUCATIVO (CARM)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAUXC" />
+      <column name="nombre" value="AUXILIAR EE.COMERCIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5002" />
+      <column name="nombre" value="AUXILIAR EN BIBLIOTECAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="AEINE" />
+      <column name="nombre" value="AUXILIAR ESTADÍSTICA (INE)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD707" />
+      <column name="nombre" value="AUXILIAR LABORATORIO DEL CSIC" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD708" />
+      <column name="nombre" value="AUXILIAR POSTAL Y DE TELECOMUNCIACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD305" />
+      <column name="nombre" value="AUXILIAR SANITARIO (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4031" />
+      <column name="nombre" value="AUXILIAR TECNICO DE INFORMACION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD001" />
+      <column name="nombre" value="AUXILIARES ADMINISTRATIVOS UNIVERSIDAD DE MURCIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC002" />
+      <column name="nombre" value="AUXILIARES DE ARCHIVOS Y BIBLIOTECAS U.MURCIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE604" />
+      <column name="nombre" value="AY. COCINA (ISSORM)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="AYPRD" />
+      <column name="nombre" value="AYUDA PREDOCTORAL UCM" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAY" />
+      <column name="nombre" value="AYUDANTE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DYL01" />
+      <column name="nombre" value="AYUDANTE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAYMD" />
+      <column name="nombre" value="AYUDANTE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DYLV1" />
+      <column name="nombre" value="AYUDANTE CON PUESTO ASISTENCIAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB202" />
+      <column name="nombre" value="AYUDANTE DE ARCHIVOS Y BIBLIOTECAS (A.ESTADO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB102" />
+      <column name="nombre" value="AYUDANTE DE ARCHIVOS Y BIBLIOTECAS (O.AUTONOMOS)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB702" />
+      <column name="nombre" value="AYUDANTE DE ARCHIVOS Y BIBLIOTECAS (U.COMPLUTENSE)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB701" />
+      <column name="nombre" value="AYUDANTE DE ARCHIVOS Y BIBLIOTECAS (U.CORDOBA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB709" />
+      <column name="nombre" value="AYUDANTE DE ARCHIVOS Y BIBLIOTECAS UPCT" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5004" />
+      <column name="nombre" value="AYUDANTE DE COCINA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L7001" />
+      <column name="nombre" value="AYUDANTE DE COCINA CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD801" />
+      <column name="nombre" value="AYUDANTE DE SERVICIOS (U.GRANADA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC302" />
+      <column name="nombre" value="AYUDANTE TECNICO LABORATORIO (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2002" />
+      <column name="nombre" value="AYUDANTE TECNICO SANITARIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB002" />
+      <column name="nombre" value="AYUDANTES DE ARCHIVOS, BIBLIOTECAS Y MUSEOS U. MURCIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="EXAP" />
+      <column name="nombre" value="AYUDAS POSTDOCTORALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5022" />
+      <column name="nombre" value="AYUD.DE OFICIOS,ALBA%IL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAY03" />
+      <column name="nombre" value="AYUD.E.U.1 PERIODO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAY04" />
+      <column name="nombre" value="AYUD.E.U.2 PERIODO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAY01" />
+      <column name="nombre" value="AYUD.FAC.1 PERIODO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAY02" />
+      <column name="nombre" value="AYUD.FAC.2 PERIODO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEPOS" />
+      <column name="nombre" value="BECA POSTDOCTORAL UM" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC03" />
+      <column name="nombre" value="BECARIO BIBLIOTECAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC13" />
+      <column name="nombre" value="BECARIO DE COLABORACION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC24" />
+      <column name="nombre" value="BECARIO DE INICIACIÓN A LA INVESTIGACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC11" />
+      <column name="nombre" value="BECARIO EN UNIV.DEL MAR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BECEX" />
+      <column name="nombre" value="BECARIO EXTRANJERO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC08" />
+      <column name="nombre" value="BECARIO ICE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CENS1" />
+      <column name="nombre" value="BECARIO INVESTIGACION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC02" />
+      <column name="nombre" value="BECARIO PROYECTOS DE INVESTIGACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC06" />
+      <column name="nombre" value="BECARIO REDES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC05" />
+      <column name="nombre" value="BECARIO RELACIONES INTERNACIONALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC10" />
+      <column name="nombre" value="BECARIO SEC.DESARROLLO S.I." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC04" />
+      <column name="nombre" value="BECARIO S.I.U." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC07" />
+      <column name="nombre" value="BECARIO UNIDAD EVALUACION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC09" />
+      <column name="nombre" value="BECARIO VETERINARIA (HCV)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC16" />
+      <column name="nombre" value="BECARIO XUNTA GALICIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC01" />
+      <column name="nombre" value="BECARIO 3 CICLO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC23" />
+      <column name="nombre" value="BECARIOS FORMACION PRACTICA I+D+I (PLAN PROPIO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BECFP" />
+      <column name="nombre" value="BECARIOS FP DUAL PRÁCTICAS CURRICULARES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BE13" />
+      <column name="nombre" value="BECAS DE COLABORACION EN ACTIVIDADES CULTURALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC19" />
+      <column name="nombre" value="BECAS DE FORMACION &quot; CONSOLIDER UMU&quot;" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC20" />
+      <column name="nombre" value="BECAS DE FORMACIÓN EN GRUPOS DE EXCELENCIA (GERM)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC12" />
+      <column name="nombre" value="BECAS DE INVESTIGACION ARTISTICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC14" />
+      <column name="nombre" value="BECAS ESTUDIANTES EXTRANJEROS CONCLUSION TESIS DOCTORAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC18" />
+      <column name="nombre" value="BECAS MEC INVESTIGADORES (FPU)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC21" />
+      <column name="nombre" value="BECAS PREDOCTORALES (CAJAMURCIA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC15" />
+      <column name="nombre" value="BECAS PREDOCTORALES FORM. INVESTIGADORES (FPI)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC22" />
+      <column name="nombre" value="BECAS PREDOCTORALES FORM. PROFESORADO FPU-UM" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BEC17" />
+      <column name="nombre" value="BECAS PREDOCTORALES (FPI-UMU)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB402" />
+      <column name="nombre" value="BIBLIOTECARIA (A. LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA723" />
+      <column name="nombre" value="BIBLIOTECARIO AUXILIAR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA721" />
+      <column name="nombre" value="BIOLOGO INVESTIGADOR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA720" />
+      <column name="nombre" value="BIOLOGO (SMS)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4006" />
+      <column name="nombre" value="CALEFACTOR-FONTANERO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5006" />
+      <column name="nombre" value="CALEFACTOR-FONTANERO CONV. ANT" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L6002" />
+      <column name="nombre" value="CAMARERO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L7002" />
+      <column name="nombre" value="CAMARERO CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4004" />
+      <column name="nombre" value="CARPINTERO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5005" />
+      <column name="nombre" value="CARPINTERO CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DCA92" />
+      <column name="nombre" value="CATEDRATICO EE.UNIV." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DCA91" />
+      <column name="nombre" value="CATEDRATICO UNIVERSIDAD" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA309" />
+      <column name="nombre" value="CATEDRÁTICOS DE ENSEÑANZA SECUNDARIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DCA02" />
+      <column name="nombre" value="CATEDRATICOS DE ESCUELAS UNIVERSITARIAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA728" />
+      <column name="nombre" value="CATEDRÁTICOS DE MÚSICA Y ARTES ESCÉNICAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DCA01" />
+      <column name="nombre" value="CATEDRATICOS DE UNIVERSIDAD" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DCA09" />
+      <column name="nombre" value="CATEDRATICOS DE UNIVERSIDAD VINCULADOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DCA04" />
+      <column name="nombre" value="CATEDRATICOS DE UNIVERSIDAD VINCULADOS HOSP.GENERAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DCA03" />
+      <column name="nombre" value="CATEDRATICOS DE UNIVERSIDAD VINCULADOS H.V.ARRIXACA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="XXXXX" />
+      <column name="nombre" value="CATEGORIA ERRONEA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE304" />
+      <column name="nombre" value="CELADOR (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE602" />
+      <column name="nombre" value="CELADOR (INSALUD)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE605" />
+      <column name="nombre" value="CELADOR (INSALUD-SMS)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE065" />
+      <column name="nombre" value="CELADOR (INSALUD/ SMS)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA901" />
+      <column name="nombre" value="CIENTIFICOS TITULARES DEL CSIC" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4007" />
+      <column name="nombre" value="COCINERO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD404" />
+      <column name="nombre" value="COCINERO (A. LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD303" />
+      <column name="nombre" value="COCINERO (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5007" />
+      <column name="nombre" value="COCINERO CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD601" />
+      <column name="nombre" value="COCINERO (INSALUD)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC601" />
+      <column name="nombre" value="COCINERO (INSALUD)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="COLCS" />
+      <column name="nombre" value="COLABORADOR CONSEJO SUP. INV. C." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DCOLE" />
+      <column name="nombre" value="COLABORADOR EE.UU." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DCOLF" />
+      <column name="nombre" value="COLABORADOR FAC.Y ETS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4008" />
+      <column name="nombre" value="CONDUCTOR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L6003" />
+      <column name="nombre" value="CONDUCTOR CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4009" />
+      <column name="nombre" value="CONSERJE *A EXTINGUIR*" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA718" />
+      <column name="nombre" value="CONSERVADOR DE MUSEOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR23" />
+      <column name="nombre" value="CONTRATADO PREDOCTORAL (FPI-MINECO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR21" />
+      <column name="nombre" value="CONTRATADO PREDOCTORAL (FPU INVES-UM)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR24" />
+      <column name="nombre" value="CONTRATADO PREDOCTORAL (FPU-MECD)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR22" />
+      <column name="nombre" value="CONTRATADO PREDOCTORAL (FPU-PROF-UM)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LID03" />
+      <column name="nombre" value="CONTRATO DE ACCESO AL SECTI" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DUE01" />
+      <column name="nombre" value="CONTRATO EN ADM. UNION EUROPEA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5021" />
+      <column name="nombre" value="CONTROL DE ACCESOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB405" />
+      <column name="nombre" value="COORDINADOR MANCOMUNIDAD SIERRA DEL SEGURA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC204" />
+      <column name="nombre" value="C.TEC.ESP. ANIMADOR JUVENIL (CARM)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC301" />
+      <column name="nombre" value="CUERPO ADMINISTRATIVO (CARM)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA307" />
+      <column name="nombre" value="CUERPO DE INTERVENTORES Y AUDITORES DE LA CARM" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA311" />
+      <column name="nombre" value="CUERPO SUPERIOR DE ADMINISTRADORES TRIBUTARIOS DE LA CARM" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD702" />
+      <column name="nombre" value="CUIDADORA (MEC)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4010" />
+      <column name="nombre" value="DELINEANTE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5008" />
+      <column name="nombre" value="DELINEANTE CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC201" />
+      <column name="nombre" value="DELINEANTE (M. ECONOMIA Y HACIENDA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3027" />
+      <column name="nombre" value="DELINEANTE PROYECTISTA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4011" />
+      <column name="nombre" value="DESPENSERO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5009" />
+      <column name="nombre" value="DESPENSERO CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LA401" />
+      <column name="nombre" value="DINAMIZADOR INFORMÁTICO (AY. HUELAGO GR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2010" />
+      <column name="nombre" value="DIPLOMADO ASUNTOS SOCIALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2004" />
+      <column name="nombre" value="DIPLOMADO EDUCACION FISICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2009" />
+      <column name="nombre" value="DIPLOMADO GESTION CULTURAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2011" />
+      <column name="nombre" value="DIPLOMADO INFORM.EXTERNA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2012" />
+      <column name="nombre" value="DIPLOMADO INFORM.INTERNA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2008" />
+      <column name="nombre" value="DIPLOMADO MICROSCOPÍA ELECTRONICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2007" />
+      <column name="nombre" value="DIPLOMADO PROGRAMADOR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2003" />
+      <column name="nombre" value="DIPLOMADO UNIVERSITARIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="P2001" />
+      <column name="nombre" value="DIPLOMADO UNIVERSITARIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2020" />
+      <column name="nombre" value="DIPLOMADO UNIVERSITARIO (BIBLIOTECAS)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB034" />
+      <column name="nombre" value="DIPLOMADOS: ALIMENTACIÓN Y RESTAURACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB015" />
+      <column name="nombre" value="DIPLOMADOS: ANIMALES DE EXPERIMENTACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB051" />
+      <column name="nombre" value="DIPLOMADOS: APOYO TÉCNICO A P.I." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB016" />
+      <column name="nombre" value="DIPLOMADOS: ARQUITECTURA TÉCNICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB028" />
+      <column name="nombre" value="DIPLOMADOS: ATS/ DUE DE EMPRESA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB018" />
+      <column name="nombre" value="DIPLOMADOS: CULTIVO DE TEJIDOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB049" />
+      <column name="nombre" value="DIPLOMADOS: DOCUMENTALISTA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB035" />
+      <column name="nombre" value="DIPLOMADOS: D.U.E. EN DEPORTE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB019" />
+      <column name="nombre" value="DIPLOMADOS: GESTION ACTIV. E INSTAL. DEPORT" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB022" />
+      <column name="nombre" value="DIPLOMADOS: GESTIÓN CULTURAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB036" />
+      <column name="nombre" value="DIPLOMADOS: GESTION DE ASUNTOS SOCIALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB042" />
+      <column name="nombre" value="DIPLOMADOS: GESTIÓN DE IDIOMAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB047" />
+      <column name="nombre" value="DIPLOMADOS: GESTIÓN DE LA CALIDAD" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB037" />
+      <column name="nombre" value="DIPLOMADOS: GESTION DE LA INVESTIGACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB052" />
+      <column name="nombre" value="DIPLOMADOS: IGUALDAD DE GÉNERO." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB013" />
+      <column name="nombre" value="DIPLOMADOS: INFORMACION UNIVERSITARIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB020" />
+      <column name="nombre" value="DIPLOMADOS: INGENIERÍA TÉCNICA AGRÍCOLA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB025" />
+      <column name="nombre" value="DIPLOMADOS: INGENIERÍA TÉCNICA INDUSTRIAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB026" />
+      <column name="nombre" value="DIPLOMADOS: INSTRUMENTACIÓN CIENTÍFICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB044" />
+      <column name="nombre" value="DIPLOMADOS: INTERCAMBIO CIENTÍFICO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB038" />
+      <column name="nombre" value="DIPLOMADOS: LABORATORIOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB030" />
+      <column name="nombre" value="DIPLOMADOS: MICROSCOPÍA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB048" />
+      <column name="nombre" value="DIPLOMADOS: PLANIFICACIÓN ESTRATEGICA INNOVACCIÓN Y PROSPEC." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB040" />
+      <column name="nombre" value="DIPLOMADOS: PREVENCIÓN RIESGOS LABORALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB045" />
+      <column name="nombre" value="DIPLOMADOS: PROMOCIÓN EDUCATIVA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB050" />
+      <column name="nombre" value="DIPLOMADOS: PROSPECTOR DE EMPLEO Y PRÁCTICAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB041" />
+      <column name="nombre" value="DIPLOMADOS: PROTOCOLO Y COMUNICACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB046" />
+      <column name="nombre" value="DIPLOMADOS: PROYECCIÓN SOCIAL Y VOLUNTARIADO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB043" />
+      <column name="nombre" value="DIPLOMADOS: PUBLICACIONES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB010" />
+      <column name="nombre" value="DIPLOMADOS: RELAC. INTERNACIONALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB011" />
+      <column name="nombre" value="DIPLOMADOS: RELACIONES INSTITUCIONALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB039" />
+      <column name="nombre" value="DIPLOMADOS: TALLERES DE ELECTRÓNICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB053" />
+      <column name="nombre" value="DIPLOMADOS TÉCNICOS: CALIDAD E INNOVACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB012" />
+      <column name="nombre" value="DIPLOMADOS: TRANSF.RESULTADOS INVESTIGACION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA716" />
+      <column name="nombre" value="DIRECTOR ÁREA MEDICINA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA722" />
+      <column name="nombre" value="DIRECTOR GERENTE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA731" />
+      <column name="nombre" value="DIRECTOR TÉCNICO (PATRONATO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DNOUN" />
+      <column name="nombre" value="DOCENTE NO UNIVERSITARIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1100" />
+      <column name="nombre" value="DOCTOR DE REINCORPORACION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="P1002" />
+      <column name="nombre" value="DOCTOR DE REINCORPORACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="P1004" />
+      <column name="nombre" value="DOCTOR INVESTIGADOR BECA MARIE CURIE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L0001" />
+      <column name="nombre" value="DOCTOR INVESTIGADOR BECA MARIE CURIE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB401" />
+      <column name="nombre" value="EDUCADOR (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD402" />
+      <column name="nombre" value="EDUCADORA (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB406" />
+      <column name="nombre" value="EDUCADOR/ A SOCIAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5010" />
+      <column name="nombre" value="ELECTRICISTA CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="ECOM" />
+      <column name="nombre" value="ENCARGADO COMARCAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3001" />
+      <column name="nombre" value="ENCARGADO DE EQUIPO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5026" />
+      <column name="nombre" value="ENCUESTADOR-GRABADOR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB301" />
+      <column name="nombre" value="ENFERMERÍA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="EIRM" />
+      <column name="nombre" value="ENFERMERO INTERNO RESIDENTE MATRONA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="ENTRE" />
+      <column name="nombre" value="ENTREVISTADOR-ENCUESTADOR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA046" />
+      <column name="nombre" value="E.S. FACULTATIVA: ACUARIOLOGÍA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA049" />
+      <column name="nombre" value="E.S. FACULTATIVA: ADMINISTRACIÓN ELECTRON. Y PROT. DE DATOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA014" />
+      <column name="nombre" value="E.S. FACULTATIVA: ANÁLISIS DE IMÁGENES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA015" />
+      <column name="nombre" value="E.S. FACULTATIVA: ANIMALES DE EXPERIMENTACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA016" />
+      <column name="nombre" value="E.S. FACULTATIVA: ARQUITECTURA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA034" />
+      <column name="nombre" value="E.S. FACULTATIVA: BIOLOGIA MOLECULAR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA047" />
+      <column name="nombre" value="E.S. FACULTATIVA: CALIDAD" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA017" />
+      <column name="nombre" value="E.S. FACULTATIVA: CIENCIAS DE LA INFORMACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA057" />
+      <column name="nombre" value="E.S. FACULTATIVA: COMUNICACIÓN AUDIOVISUAL (NO CREADA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA058" />
+      <column name="nombre" value="E.S. FACULTATIVA: COMUNICACIÓN PUBLICITARIA (NO CREADA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA018" />
+      <column name="nombre" value="E.S. FACULTATIVA: CULTIVO DE TEJIDOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA019" />
+      <column name="nombre" value="E.S .FACULTATIVA: EDUCACIÓN FÍSICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA043" />
+      <column name="nombre" value="E.S. FACULTATIVA: ESTADISTICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA021" />
+      <column name="nombre" value="E.S. FACULTATIVA: EVALUACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA020" />
+      <column name="nombre" value="E.S. FACULTATIVA: EXPERIMENTACIÓN AGRÍCOLA Y FORESTAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA022" />
+      <column name="nombre" value="E.S. FACULTATIVA: GESTIÓN CULTURAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA023" />
+      <column name="nombre" value="E.S. FACULTATIVA: GESTION DE PROMOCIÓN EDUCATIVA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA038" />
+      <column name="nombre" value="E.S. FACULTATIVA: IDIOMAS ALEMÁN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA035" />
+      <column name="nombre" value="E.S. FACULTATIVA: IDIOMAS ESPAÑOL PARA EXTRANJEROS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA037" />
+      <column name="nombre" value="E.S. FACULTATIVA: IDIOMAS FRANCÉS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA036" />
+      <column name="nombre" value="E.S. FACULTATIVA: IDIOMAS INGLÉS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA039" />
+      <column name="nombre" value="E.S. FACULTATIVA: IDIOMAS ITALIANO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA052" />
+      <column name="nombre" value="E.S. FACULTATIVA: IDIOMAS JAPONÉS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA051" />
+      <column name="nombre" value="E.S. FACULTATIVA: IDIOMAS PORTUGUÉS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA050" />
+      <column name="nombre" value="E.S. FACULTATIVA: IDIOMAS RUSO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA042" />
+      <column name="nombre" value="E.S. FACULTATIVA: INFORMACIÓN UNIVERSITARIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA024" />
+      <column name="nombre" value="E.S. FACULTATIVA: INFORMACIÓN Y COMUNICACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA025" />
+      <column name="nombre" value="E.S. FACULTATIVA: INGENIERIA INDUSTRIAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA026" />
+      <column name="nombre" value="E.S. FACULTATIVA: INSTRUMENTACIÓN CIENTÍFICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA027" />
+      <column name="nombre" value="E.S. FACULTATIVA: INSTRUMENTACIÓN PSICOLÓGICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA029" />
+      <column name="nombre" value="E.S. FACULTATIVA: MEDICINA DEL DEPORTE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA028" />
+      <column name="nombre" value="E.S. FACULTATIVA: MEDICINA DEL TRABAJO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA030" />
+      <column name="nombre" value="E.S. FACULTATIVA. :MICROSCOPÍA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA056" />
+      <column name="nombre" value="E.S. FACULTATIVA: ORIENTACIÓN EDUCATIVA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA040" />
+      <column name="nombre" value="E.S. FACULTATIVA: ORIENTACIÓN PROFESIONAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA045" />
+      <column name="nombre" value="E.S. FACULTATIVA: PLAN. ESTRATÉGI., INNOVACIÓN Y PROSPECTIVA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA032" />
+      <column name="nombre" value="E.S. FACULTATIVA: RADIOPROTECCIÓN Y RESIDUOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA031" />
+      <column name="nombre" value="E.S. FACULTATIVA: RECURSOS AUDIOVISUALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA060" />
+      <column name="nombre" value="E.S. FACULTATIVA. RESPONSABLE EN BIENESTAR ANIMAL (NO CREADA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA044" />
+      <column name="nombre" value="E.S. FACULTATIVA: SOCIOLOGIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA053" />
+      <column name="nombre" value="E.S. FACULTATIVA: TECNOLOGÍAS PARA LA FORMACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA012" />
+      <column name="nombre" value="E.S. FACULTATIVA: TRANSFERENCIA RESULTADOS INVESTIGACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA033" />
+      <column name="nombre" value="E.S. FACULTATIVA: VETERINARIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA055" />
+      <column name="nombre" value="E.S. FACULTATIVA: VETERINARIO/ A ANIMALES DE EXPERIMENTACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA059" />
+      <column name="nombre" value="E.S. FACULTATIVA: VETERINARIO/ A ANIMALES DE LABORATORIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC705" />
+      <column name="nombre" value="ESCALA ADMINISTRATIVA UPCT" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA061" />
+      <column name="nombre" value="E.S.FACULTATIVA: GESTIÓN DE LA INVESTIGACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA062" />
+      <column name="nombre" value="E.S.FACULTATIVA: RELACIONES INTERNACIONALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB408" />
+      <column name="nombre" value="ESPECIALISTA EN ACCION SOCIAL (IVASS)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="E0001" />
+      <column name="nombre" value="ESTUDIANTE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FOR03" />
+      <column name="nombre" value="ESTUDIANTES CENTROS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FOR05" />
+      <column name="nombre" value="ESTUDIANTES COIE C. RURAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FOR01" />
+      <column name="nombre" value="ESTUDIANTES COIE EN UNIDADES UM" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FOR04" />
+      <column name="nombre" value="ESTUDIANTES COIE-B.SANTANDER" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FOR02" />
+      <column name="nombre" value="ESTUDIANTES MASTER EN PROG. FORM. RD 1493" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE005" />
+      <column name="nombre" value="ET SUBALTERNOS: ANIMALES EXPERIMENTACIÓN PRIMATES NO HUMANOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA708" />
+      <column name="nombre" value="FACULTATIVA ARCHIVOS Y BIBLIOTECAS UPCT" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA054" />
+      <column name="nombre" value="FACULTATIVOS: APOYO TECNICO A P.I." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA302" />
+      <column name="nombre" value="FACULTATIVOS (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA002" />
+      <column name="nombre" value="FACULTATIVOS DE ARCHIVOS, BIBLIOTECAS Y MUSEOS U.MURCIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA202" />
+      <column name="nombre" value="FACULTATIVOS DE ARCHIVOS Y BIBLIOTECAS ( A.ESTADO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA041" />
+      <column name="nombre" value="FACULTATIVOS: PSICOLOGÍA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB307" />
+      <column name="nombre" value="FISIOTERAPIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BFP01" />
+      <column name="nombre" value="FP DUAL PRACTICAS CURRICULARES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5011" />
+      <column name="nombre" value="FRIGORISTA CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA01" />
+      <column name="nombre" value="FUNCIONARIO DE CARRERA DE LA ACADEMIA GENERAL DEL AIRE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB004" />
+      <column name="nombre" value="G. SIST. DE INFORMÁTICA: TECN. EN METODOLOGIAS DIR. PROYECTO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC404" />
+      <column name="nombre" value="GABINETE DE PRENSA AYUNTAMIENTO VILLENA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LA301" />
+      <column name="nombre" value="GEOGRAFO (IMIDAA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA730" />
+      <column name="nombre" value="GERENTE (PATRONATO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB700" />
+      <column name="nombre" value="GESTION ADMINISTRATIVA (U.CORDOBA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB201" />
+      <column name="nombre" value="GESTION (A.ESTADO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB005" />
+      <column name="nombre" value="GESTIÓN: AUDITORIA Y CONTABILIDAD" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB301" />
+      <column name="nombre" value="GESTION (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB003" />
+      <column name="nombre" value="GESTION DE SISTEMAS DE INFORMÁTICA DE LA U. DE MURCIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB501" />
+      <column name="nombre" value="GESTION (I.N.E.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB000" />
+      <column name="nombre" value="GESTION INGLES ( OTRI, RR.II., E II.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB901" />
+      <column name="nombre" value="GESTION PROCESAL Y ADMINISTRATIVA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB001" />
+      <column name="nombre" value="GESTION UNIVERSITARIA DE LA UNIVERSIDAD DE MURCIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB920" />
+      <column name="nombre" value="GESTION (U.PUBLICA NAVARRA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4016" />
+      <column name="nombre" value="GOBERNANTA *A EXTINGUIR*" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA101" />
+      <column name="nombre" value="GRUPO A O EQUIVALENTE O.A." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2005" />
+      <column name="nombre" value="INGENIERO TECNICO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA601" />
+      <column name="nombre" value="INTERVENCION Y CONTABILIDAD (S.SOCIAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA734" />
+      <column name="nombre" value="INVEST. T. SUPERIOR/ DOC. BIOQUIMICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA726" />
+      <column name="nombre" value="INVEST/ APOYO PROYECTOS INVESTIGACION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC703" />
+      <column name="nombre" value="INVEST/ APOYO PROYECTOS INVESTIGACION CUARTA (U.C.L.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPD06" />
+      <column name="nombre" value="INVESTIGADOR (ACCESO AL S.E.C.T.I)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LJC02" />
+      <column name="nombre" value="INVESTIGADOR &quot; JUAN DE LA CIERVA&quot; FORMACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LMC01" />
+      <column name="nombre" value="INVESTIGADOR MARIE CURIE (DOCTOR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR26" />
+      <column name="nombre" value="INVESTIGADOR PREDOCTORAL &quot; LA CAIXA&quot;" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA704" />
+      <column name="nombre" value="INVESTIGADOR AGRARIO IMIDA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LIC35" />
+      <column name="nombre" value="INVESTIGADOR CIENTÍFICO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LIL51" />
+      <column name="nombre" value="INVESTIGADOR COLABORADOR SENIOR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LIC01" />
+      <column name="nombre" value="INVESTIGADOR CONTRATADO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LID01" />
+      <column name="nombre" value="INVESTIGADOR DOCTOR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPD05" />
+      <column name="nombre" value="INVESTIGADOR DOCTOR &quot; F.CAJAMURCIA&quot; )" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LID02" />
+      <column name="nombre" value="INVESTIGADOR DOCTOR OTRAS ADMINISTRACIONES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPD03" />
+      <column name="nombre" value="INVESTIGADOR DOCTOR &quot; SAAVEDRA FAJARDO&quot;" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPD04" />
+      <column name="nombre" value="INVESTIGADOR DOCTOR &quot; SARA BORREL-ICIII)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR06" />
+      <column name="nombre" value="INVESTIGADOR EN FORMACIÓN CAJAMURCIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR04" />
+      <column name="nombre" value="INVESTIGADOR EN FORMACIÓN CAM" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR05" />
+      <column name="nombre" value="INVESTIGADOR EN FORMACIÓN CONSOLIDER-UMU" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR02" />
+      <column name="nombre" value="INVESTIGADOR EN FORMACIÓN FPI-MEC" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR03" />
+      <column name="nombre" value="INVESTIGADOR EN FORMACIÓN FPI-SENECA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR01" />
+      <column name="nombre" value="INVESTIGADOR EN FORMACIÓN FPI-UMU" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR08" />
+      <column name="nombre" value="INVESTIGADOR EN FORMACIÓN FPU-MEC" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR07" />
+      <column name="nombre" value="INVESTIGADOR EN FORMACION FPU-UMU" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR09" />
+      <column name="nombre" value="INVESTIGADOR EN FORMACIÓN GERM" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR11" />
+      <column name="nombre" value="INVESTIGADOR EN FORMACIÓN (OTRAS UNIVERSIDADES)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LJI01" />
+      <column name="nombre" value="INVESTIGADOR &quot;JOVENES DOCTORES EXTRANJEROS&quot;" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LJC01" />
+      <column name="nombre" value="INVESTIGADOR &quot;JUAN DE LA CIERVA&quot;" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LJC04" />
+      <column name="nombre" value="INVESTIGADOR &quot;JUAN DE LA CIERVA&quot; INCORPORACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LJC03" />
+      <column name="nombre" value="INVESTIGADOR &quot;JUAN DE LA CIERVA&quot; INCORPORACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LJI90" />
+      <column name="nombre" value="INVESTIGADOR JUNIOR (U.ALICANTE)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LJI91" />
+      <column name="nombre" value="INVESTIGADOR JUNIOR (UNIVERSIDAD MIGUEL HERNANDEZ-ELCHE)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LIL01" />
+      <column name="nombre" value="INVESTIGADOR LICENCIADO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LIL02" />
+      <column name="nombre" value="INVESTIGADOR LICENCIADO (OTRAS ADMINISTRACIONES)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LMC02" />
+      <column name="nombre" value="INVESTIGADOR MARIE CURIE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LIEX1" />
+      <column name="nombre" value="INVESTIGADOR NIVEL 7 DE LA UNIVERSIDAD DE MANCHESTER" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPD50" />
+      <column name="nombre" value="INVESTIGADOR POSTDOCTORAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPDPS" />
+      <column name="nombre" value="INVESTIGADOR POSTDOCTORAL EXTERNO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPD02" />
+      <column name="nombre" value="INVESTIGADOR POSTDOCTORAL MEC" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPD01" />
+      <column name="nombre" value="INVESTIGADOR POSTDOCTORAL UMU" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LIL03" />
+      <column name="nombre" value="INVESTIGADOR PREDOCTORAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LIL52" />
+      <column name="nombre" value="INVESTIGADOR PREDOCTORAL EN FORMACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LPR25" />
+      <column name="nombre" value="INVESTIGADOR PREDOCTORAL (SÉNECA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LRC01" />
+      <column name="nombre" value="INVESTIGADOR &quot;RAMON Y CAJAL&quot;" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="P1005" />
+      <column name="nombre" value="INVESTIGADOR &quot;RAMON Y CAJAL&quot;" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L6004" />
+      <column name="nombre" value="JARDINERO CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4017" />
+      <column name="nombre" value="JEFE DE COCINA *A EXTINGUIR*" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4019" />
+      <column name="nombre" value="JEFE DE GRUPO *A EXTINGUIR*" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD403" />
+      <column name="nombre" value="JEFE DE TALLER (A. LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC401" />
+      <column name="nombre" value="JEFE DE TALLER (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="JS000" />
+      <column name="nombre" value="JUEZ SUSTITUTO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BLEC1" />
+      <column name="nombre" value="LECTORES EXTRANJEROS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DEXTR" />
+      <column name="nombre" value="LECTURER DE LA UNIVERSIDAD DE LEICESTER" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L7003" />
+      <column name="nombre" value="LIMPIADORA CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB703" />
+      <column name="nombre" value="LOGOPEDA SMS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FCDOC" />
+      <column name="nombre" value="MAESTRO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2006" />
+      <column name="nombre" value="MAESTRO DE TALLER" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DMT01" />
+      <column name="nombre" value="MAESTRO DE TALLER" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD407" />
+      <column name="nombre" value="MAESTRO DE TALLER (IVASS)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FBDOC" />
+      <column name="nombre" value="MAESTRO O PROFESOR DE EGB" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="MS000" />
+      <column name="nombre" value="MAGISTRADO SUSTITUTO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LB701" />
+      <column name="nombre" value="MATRONA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB302" />
+      <column name="nombre" value="MATRONA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="MDAP" />
+      <column name="nombre" value="MATRONA DE ATENCIÓN PRIMARIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4020" />
+      <column name="nombre" value="MECANICO TORNERO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5013" />
+      <column name="nombre" value="MECANICO TORNERO CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1003" />
+      <column name="nombre" value="MEDICO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA711" />
+      <column name="nombre" value="MÉDICO ADJUNTO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA712" />
+      <column name="nombre" value="MÉDICO DE URGENCIAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA710" />
+      <column name="nombre" value="MÉDICO INTERNO RESIDENTE (MIR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC406" />
+      <column name="nombre" value="MONITOR DE ATENCIÓN SOCIOSANITARIA (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC409" />
+      <column name="nombre" value="MONITOR DE DEPORTES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA401" />
+      <column name="nombre" value="MONITOR DE EXCAVACIONES ARQUEOLÓGICAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC405" />
+      <column name="nombre" value="MONITOR DE TALLERES (ADM. LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD406" />
+      <column name="nombre" value="MONITOR DEPORTIVO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC402" />
+      <column name="nombre" value="MONITOR MECANOGRAFÍA (A. LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="MNAAG" />
+      <column name="nombre" value="MONITOR NATACIÓN AYUNTAMIENTO GENIL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L7004" />
+      <column name="nombre" value="MOZO DE SERVICIO CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L6006" />
+      <column name="nombre" value="MOZO DE SERVICIO (HAS.30.6.92)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5019" />
+      <column name="nombre" value="MOZOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="P5001" />
+      <column name="nombre" value="MOZOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA717" />
+      <column name="nombre" value="ODONTOESTOMATÓLOGO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA713" />
+      <column name="nombre" value="ODONTÓLOGO DE CUPO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L6008" />
+      <column name="nombre" value="OF. DE SEGUNDA OFIC. CONV. ANT" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5014" />
+      <column name="nombre" value="OF. 1 LABORATORIO CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5012" />
+      <column name="nombre" value="OF 1 OF JARDINERIA CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5015" />
+      <column name="nombre" value="OF 1 OFICIOS CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="P4002" />
+      <column name="nombre" value="OFICIAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4030" />
+      <column name="nombre" value="OFICIAL ADMINISTRATIVO (A EXT)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC203" />
+      <column name="nombre" value="OFICIAL ADMINISTRATIVO 1ª (M.TR Y A.SOCIALES)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4027" />
+      <column name="nombre" value="OFICIAL CARP.CERRAJERO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4037" />
+      <column name="nombre" value="OFICIAL CONTROL DE ACCESOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD706" />
+      <column name="nombre" value="OFICIAL DE ADMINISTRACIÓN (U.P. CARTAGENA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4035" />
+      <column name="nombre" value="OFICIAL DE ANIMALARIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4039" />
+      <column name="nombre" value="OFICIAL DE AUXILIAR DE SERVICIOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4034" />
+      <column name="nombre" value="OFICIAL DE BIBLIOTECAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4005" />
+      <column name="nombre" value="OFICIAL DE CERRAJERIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4026" />
+      <column name="nombre" value="OFICIAL DE CORREOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4018" />
+      <column name="nombre" value="OFICIAL DE JARDINERIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L6007" />
+      <column name="nombre" value="OFICIAL DE LABOR. CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="P4001" />
+      <column name="nombre" value="OFICIAL DE LABORATORIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4038" />
+      <column name="nombre" value="OFICIAL DE LIMPIEZA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4001" />
+      <column name="nombre" value="OFICIAL DE OFICIO AGROPECUARIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4033" />
+      <column name="nombre" value="OFICIAL DE OFICIOS-MECANICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4036" />
+      <column name="nombre" value="OFICIAL DE PUBLICACIONES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4032" />
+      <column name="nombre" value="OFICIAL DE PUBLICACIONES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4024" />
+      <column name="nombre" value="OFICIAL DE REPROGRAFIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4013" />
+      <column name="nombre" value="OFICIAL ELECTRICISTA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4014" />
+      <column name="nombre" value="OFICIAL ELECTROMECANICO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4015" />
+      <column name="nombre" value="OFICIAL FRIGORISTA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD703" />
+      <column name="nombre" value="OFICIAL LABORATORIO (U.A. BARCELONA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4012" />
+      <column name="nombre" value="OFICIAL LABORATORIO-DISECCION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4040" />
+      <column name="nombre" value="OFICIAL MOZOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4023" />
+      <column name="nombre" value="OFICIAL PINTOR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4025" />
+      <column name="nombre" value="OFICIAL TELEFONISTA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC301" />
+      <column name="nombre" value="OFICIAL 1º COCINA (CARM)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE303" />
+      <column name="nombre" value="OFICIAL 2ª COCINA (A. LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD202" />
+      <column name="nombre" value="OFICIAL 2ª OFICIOS (A.ESTADO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4021" />
+      <column name="nombre" value="OFICIALES LABORATORIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3002" />
+      <column name="nombre" value="OPERADOR C.P.D. *A EXTINGUIR*" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE404" />
+      <column name="nombre" value="OPERARIO CONSERJE (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L7005" />
+      <column name="nombre" value="ORDENANZA CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L6009" />
+      <column name="nombre" value="ORDENANZA (HAS.30.6.92)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE603" />
+      <column name="nombre" value="ORDENANZA (ISSORM)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="OLA2" />
+      <column name="nombre" value="ORIENTADOR LABORAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE405" />
+      <column name="nombre" value="PEON AGRICOLA (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L4022" />
+      <column name="nombre" value="PERFORISTA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="T002" />
+      <column name="nombre" value="PERIODISTA MCSE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="COLSO" />
+      <column name="nombre" value="PERSONAL DE COLABORACION SOCIAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5018" />
+      <column name="nombre" value="PERSONAL DE LIMPIEZA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L6005" />
+      <column name="nombre" value="PERSONAL DE LIMPIEZA HAS.30.6.92" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE302" />
+      <column name="nombre" value="PERSONAL DE SERVICIOS( C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE306" />
+      <column name="nombre" value="PERSONAL DE SERVICIOS (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC705" />
+      <column name="nombre" value="PERSONAL DE TROPA (M. DEFENSA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="PDEI" />
+      <column name="nombre" value="PERSONAL DOCENTE E INVESTIGADOR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE602" />
+      <column name="nombre" value="PERSONAL ESTATUTARIO (INSALUD)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="EV002" />
+      <column name="nombre" value="PERSONAL EVENTUAL ASISTENTE DIPUTADOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="EV003" />
+      <column name="nombre" value="PERSONAL EVENTUAL AYUNT. MURCIA APOYO GRUPO MUNICIPAL UPYD" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="EV001" />
+      <column name="nombre" value="PERSONAL EVENTUAL COMUNICACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA725" />
+      <column name="nombre" value="PERSONAL EVENTUAL DE GABINETE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LABCU" />
+      <column name="nombre" value="PERSONAL LABORAL CURSOS COIE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE002" />
+      <column name="nombre" value="PERSONAL NO CUALIFICADO (UMU)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LA701" />
+      <column name="nombre" value="PERSONAL TECNICO DE APOYO A LA INVESTIGACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD705" />
+      <column name="nombre" value="PERSONAL TROPA (M.DEFENSA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE603" />
+      <column name="nombre" value="PINCHE COCINA (INSALUD)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5016" />
+      <column name="nombre" value="PINTOR CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DPNE3" />
+      <column name="nombre" value="PLAZA NO ESCALAF.(COMERCIO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DPNE1" />
+      <column name="nombre" value="PLAZA NO ESCALAFON." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DPNE2" />
+      <column name="nombre" value="PLAZA NO ESCALAFONADA (&lt;LRU )" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD701" />
+      <column name="nombre" value="POLICIA NACIONAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="PCR01" />
+      <column name="nombre" value="PRÁCTICAS CURRICULARES REMUNERADAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FOR11" />
+      <column name="nombre" value="PRÁCTICAS CURRICULARES RETRIBUIDAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FOR06" />
+      <column name="nombre" value="PRÁCTICAS EXTRACURRICULARES ALUMNOS NO UM" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA099" />
+      <column name="nombre" value="PRESIDENTE DEL CONSEJO SOCIAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="BALCA" />
+      <column name="nombre" value="PRESIDENTE CONSEJO SOCIAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CS001" />
+      <column name="nombre" value="PRESIDENTE CONSEJO SOCIAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAD93" />
+      <column name="nombre" value="PROF. ADJ. EE.NORMALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAG91" />
+      <column name="nombre" value="PROF. AGREG. UNIVERSIDAD" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAG92" />
+      <column name="nombre" value="PROF. AGREGADO. EE.UU." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DENCE" />
+      <column name="nombre" value="PROF. ENCARG. CURSO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC202" />
+      <column name="nombre" value="PROF. ENSEÑANZAS DEL HOGAR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DTIEF" />
+      <column name="nombre" value="PROF. TITULAR ED. FISICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA702" />
+      <column name="nombre" value="PROF. TITULAR LAB. INTERINO (U. M. HERNANDEZ)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAD94" />
+      <column name="nombre" value="PROF.ADJ. ED. FISICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAS01" />
+      <column name="nombre" value="PROF.ASOCIADO CC.SALUD" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAS02" />
+      <column name="nombre" value="PROF.ASOCIADO PERM.LABORAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAS03" />
+      <column name="nombre" value="PROF.ASOCIADO PERM.LABORAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAS05" />
+      <column name="nombre" value="PROF.ASOCIADO PERM.LABORAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAS04" />
+      <column name="nombre" value="PROF.ASOCIADO PERM.LABORAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAS12" />
+      <column name="nombre" value="PROF.ASOCIADO TIPO 1" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAS22" />
+      <column name="nombre" value="PROF.ASOCIADO TIPO 2" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAS32" />
+      <column name="nombre" value="PROF.ASOCIADO TIPO 3" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAS42" />
+      <column name="nombre" value="PROF.ASOCIADO TIPO 4" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DENCF" />
+      <column name="nombre" value="PROF.ENCARG.CURSO FAC." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAD91" />
+      <column name="nombre" value="PROFESOR ADJUNTO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAS06" />
+      <column name="nombre" value="PROFESOR ASOCIADO PERMANENTE LABORAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="PAEUC" />
+      <column name="nombre" value="PROFESOR AUXILIAR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DYD01" />
+      <column name="nombre" value="PROFESOR AYUDANTE DOCTOR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DYDV1" />
+      <column name="nombre" value="PROFESOR AYUDANTE DOCTOR CON PUESTO VINCULADO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DCL01" />
+      <column name="nombre" value="PROFESOR COLABORADOR (DIPLOMADO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DCL02" />
+      <column name="nombre" value="PROFESOR COLABORADOR (LICENCIADO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DSU04" />
+      <column name="nombre" value="PROFESOR CONTRADO TEMPORAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DSU05" />
+      <column name="nombre" value="PROFESOR CONTRADO TEMPORAL (PPL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DCD01" />
+      <column name="nombre" value="PROFESOR CONTRATADO DOCTOR TIPO A (DEI)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DCD03" />
+      <column name="nombre" value="PROFESOR CONTRATADO DOCTOR TIPO A (DYPI)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DCDV3" />
+      <column name="nombre" value="PROFESOR CONTRATADO DOCTOR TIPO A (VINCULADO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DCD02" />
+      <column name="nombre" value="PROFESOR CONTRATADO DOCTOR TIPO B (DYDI)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DSU01" />
+      <column name="nombre" value="PROFESOR CONTRATADO PARA SUSTITUCIONES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DSU03" />
+      <column name="nombre" value="PROFESOR CONTRATADO TEMPORAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DSU06" />
+      <column name="nombre" value="PROFESOR CONTRATADO TEMPORAL (TU)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DOC90" />
+      <column name="nombre" value="PROFESOR DE ENSEÑANZA SUPERIOR (M. DEFENSA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LB702" />
+      <column name="nombre" value="PROFESOR DE RELIGIÓN EN PRIMARIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB001" />
+      <column name="nombre" value="PROFESOR EDUCACION FISICA (UMU)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DEMN1" />
+      <column name="nombre" value="PROFESOR EMERITO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DEM01" />
+      <column name="nombre" value="PROFESOR EMERITO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DEM02" />
+      <column name="nombre" value="PROFESOR EMÉRITO DE TRANSFERENCIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DEMHO" />
+      <column name="nombre" value="PROFESOR EMERITO HONORARIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DEML1" />
+      <column name="nombre" value="PROFESOR EMERITO (LOU)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DSU02" />
+      <column name="nombre" value="PROFESOR EN ACUMULACIÓN TAREAS (ART. 25.3 CC)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FADOI" />
+      <column name="nombre" value="PROFESOR ESCUELA OFICIAL DE IDIOMAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB306" />
+      <column name="nombre" value="PROFESOR ESPECIALISTA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="SABAT" />
+      <column name="nombre" value="PROFESOR EXTRANJERO (SABÁTICO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FADOC" />
+      <column name="nombre" value="PROFESOR INSTITUTO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DSU99" />
+      <column name="nombre" value="PROFESOR INTERINO DE SUSTITUCIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="PLUG" />
+      <column name="nombre" value="PROFESOR LECTOR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DPL01" />
+      <column name="nombre" value="PROFESOR PERMANENTE LABORAL A TIEMPO COMPLETO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FBDFP" />
+      <column name="nombre" value="PROFESOR TÉCNICO DE F.P." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DTI06" />
+      <column name="nombre" value="PROFESOR TITULAR DE ESCUELA UNIVERSITARIA VIN. HOSP. GEN. UN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DTI09" />
+      <column name="nombre" value="PROFESOR TITULAR DE UNIVERSIDAD VINCULADO H.U.M.M." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DTI10" />
+      <column name="nombre" value="PROFESOR TITULAR DE UNIVERSIDAD VINCULADO HUSL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAS10" />
+      <column name="nombre" value="PROFESOR VISITANTE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DVL01" />
+      <column name="nombre" value="PROFESOR VISITANTE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAS09" />
+      <column name="nombre" value="PROFESOR VISITANTE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DVI01" />
+      <column name="nombre" value="PROFESOR VISITANTE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAS08" />
+      <column name="nombre" value="PROFESOR VISITANTE EXTRANJERO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DAS07" />
+      <column name="nombre" value="PROFESOR VISITANTE EXTRANJERO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA306" />
+      <column name="nombre" value="PROFESORES DE ARTES PLASTICAS Y DISEÑO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA308" />
+      <column name="nombre" value="PROFESORES DE ENSEÑANZA SECUNDARIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB002" />
+      <column name="nombre" value="PROFESORES DE INSTITUTOS TECNICOS DE ENSEÑANZAS MEDIAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA727" />
+      <column name="nombre" value="PROFESORES DE MUSICA Y ARTES ESCÉNICAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DTI02" />
+      <column name="nombre" value="PROFESORES TITULARES DE ESCUELAS UNIVERSITARIAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DTI01" />
+      <column name="nombre" value="PROFESORES TITULARES DE UNIVERSIDAD" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DTI04" />
+      <column name="nombre" value="PROFESORES TITULARES DE UNIVERSIDAD VINCULADOS HOSP.GENERAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DTI03" />
+      <column name="nombre" value="PROFESORES TITULARES DE UNIVERSIDAD VINCULADOS H.V.ARRIXACA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DTI05" />
+      <column name="nombre" value="PROFESORES TITULARES EE.UU .VINCULADOS H.V.ARRIXACA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DPRCO" />
+      <column name="nombre" value="PROF.ESP.EE.COMERCIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="DPFRG" />
+      <column name="nombre" value="PROF.FORM.RELIGIOSA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA305" />
+      <column name="nombre" value="PSICOLOGO (ISSORM)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA707" />
+      <column name="nombre" value="PSICOLOGO/ A ADM. LOCAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA733" />
+      <column name="nombre" value="RESPONSABLE DE PUBLICIDAD Y M. COMUNICACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA719" />
+      <column name="nombre" value="SEGURIDAD Y SALUD LABORAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE406" />
+      <column name="nombre" value="SOCORRISTA (A. LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD401" />
+      <column name="nombre" value="SOCORRISTA (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE601" />
+      <column name="nombre" value="SUBALTERNA (S.SOCIAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE001" />
+      <column name="nombre" value="SUBALTERNO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE401" />
+      <column name="nombre" value="SUBALTERNO (ADM. LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE201" />
+      <column name="nombre" value="SUBALTERNO (A.ESTADO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE401" />
+      <column name="nombre" value="SUBALTERNO (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE301" />
+      <column name="nombre" value="SUBALTERNO (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE301" />
+      <column name="nombre" value="SUBALTERNO (C.A.R.M )." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE101" />
+      <column name="nombre" value="SUBALTERNO (O.AUTONOMOS)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE006" />
+      <column name="nombre" value="SUBALTERNOS: APOYO TÉCNICO A P.I." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE002" />
+      <column name="nombre" value="SUBALTERNOS: AUXILIAR DE SERVICIOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE003" />
+      <column name="nombre" value="SUBALTERNOS: CONTROL DE ACCESOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE091" />
+      <column name="nombre" value="SUBALTERNOS: LIMPIEZA (A EXTINGUIR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FE004" />
+      <column name="nombre" value="SUBALTERNOS: MOZOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA301" />
+      <column name="nombre" value="SUPERIOR DE ADMINISTRADORES (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA006" />
+      <column name="nombre" value="SUPERIOR DE SISTEMA Y T.I.: TECNOLOGÍAS MULTIMEDIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA003" />
+      <column name="nombre" value="SUPERIOR DE SISTEMAS Y TECNOLOGIA DE LA INFORMACION U.MURCIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA005" />
+      <column name="nombre" value="SUPERIOR DE SISTEMAS Y T.I.: ADMINISTRACIÓN ELECTRÓNICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA708" />
+      <column name="nombre" value="TEC. ACCIONES OPEA AY. ALCANTARILLA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB404" />
+      <column name="nombre" value="TEC. ACCIONES OPEA B AY. ALCANTARILLA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC408" />
+      <column name="nombre" value="TEC. AUX. ACTIVIDADES SOCIOCULTURALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD097" />
+      <column name="nombre" value="TEC. AUX.: AUXILIAR DE SERVICIOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD085" />
+      <column name="nombre" value="TÉC. AUX.: CONTROL DE ACCESOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD099" />
+      <column name="nombre" value="TEC. AUX.: LIMPIEZA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD098" />
+      <column name="nombre" value="TEC- AUX.: MOZOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC081" />
+      <column name="nombre" value="TEC. ESPEC.: TALLER DE BELLAS ARTES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3026" />
+      <column name="nombre" value="TEC. ESPECIALISTA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3005" />
+      <column name="nombre" value="TEC. ESPECIALISTA CARPINTERIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LE050" />
+      <column name="nombre" value="TEC. ESPECIALISTA COMEDORES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3003" />
+      <column name="nombre" value="TEC. ESPECIALISTA DE ALBAÑILERIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3009" />
+      <column name="nombre" value="TEC. ESPECIALISTA DE DISECCION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3010" />
+      <column name="nombre" value="TEC. ESPECIALISTA DE ELECTRICIDAD" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3012" />
+      <column name="nombre" value="TEC. ESPECIALISTA DE FONTANERIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3015" />
+      <column name="nombre" value="TEC. ESPECIALISTA DE INFORMATICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3016" />
+      <column name="nombre" value="TEC. ESPECIALISTA DE LABORATORIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3019" />
+      <column name="nombre" value="TEC. ESPECIALISTA DE MANTENIM.Y CONSER" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3022" />
+      <column name="nombre" value="TEC. ESPECIALISTA DE PUBLICACIONES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3042" />
+      <column name="nombre" value="TEC. ESPECIALISTA DIGITALIZACION DE IMÁGENES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3037" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN ALMACEN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3030" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN ANIMALARIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3034" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN CABLES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3028" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN CONDUCCION Y MECANICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3007" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN CORREOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3048" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN CULTIVO DE TEJIDOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3004" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN CULTIVOS CELULARES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3031" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN ELECTROMECANICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3011" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN ELECTRONICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3035" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN ELEMENTOS EDIFICACION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3036" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN FLUIDOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3013" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN FRIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3032" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN INFORMATICA.Y AUTOMATICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3008" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN INST.DEPORTIVAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3014" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN INSTRUMENTACION CIENTIFICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3025" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN JARDINERIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3017" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN LIMPIEZA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3018" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN MEDIOS AUDIOVISUAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3021" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN MICROSCOPIA ELECTRONICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3029" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN MONTAJES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3033" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN PREVENCION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3050" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN RESTAURACION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3039" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN SEGUIMIENTO P. INVESTIGACION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3038" />
+      <column name="nombre" value="TEC .ESPECIALISTA EN TRANSPORTES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3024" />
+      <column name="nombre" value="TEC. ESPECIALISTA EN VIDRIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3041" />
+      <column name="nombre" value="TEC. ESPECIALISTA INSTAL. RADIO. Y RES. TOX." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3051" />
+      <column name="nombre" value="TEC. ESPECIALISTA LAB. ANATOMIA PATOLOGICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3049" />
+      <column name="nombre" value="TEC. ESPECIALISTA LAB. BIOLOGIA ANIMAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LE049" />
+      <column name="nombre" value="TEC. ESPECIALISTA LAB. BIOLOGIA ANIMAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LE042" />
+      <column name="nombre" value="TEC. ESPECIALISTA LAB. DIGITALIZACION DE IMÁGENES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3043" />
+      <column name="nombre" value="TEC. ESPECIALISTA LAB. INSTRUMENTACION ODONTOLOGICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LE043" />
+      <column name="nombre" value="TEC. ESPECIALISTA LAB. INSTRUMENTACION ODONTOLOGICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3046" />
+      <column name="nombre" value="TEC. ESPECIALISTA LAB. NUTRICION Y BROMATOLOGIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3040" />
+      <column name="nombre" value="TEC. ESPECIALISTA LAB. OFTAMOLOGIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3045" />
+      <column name="nombre" value="TEC. ESPECIALISTA LAB. PATOLOGIA CLINICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3047" />
+      <column name="nombre" value="TEC. ESPECIALISTA LAB. PATOLOGIA HUMANA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3044" />
+      <column name="nombre" value="TEC. ESPECIALISTA LAB. PSICOBIOLOGIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="P3001" />
+      <column name="nombre" value="TEC. ESPECIALISTA LABORATORIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC702" />
+      <column name="nombre" value="TEC. ESPECIALISTA LABORATORIO (U.A.BARCELONA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3020" />
+      <column name="nombre" value="TEC. ESPECIALISTA MECANICO CONSERV." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3023" />
+      <column name="nombre" value="TEC. ESPECIALISTA MECANICO TORNERO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="P3002" />
+      <column name="nombre" value="TEC. ESPECIALISTA P.I." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC701" />
+      <column name="nombre" value="TEC. ESPECIALISTA (U. CASTILLA-LA MANCHA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L3006" />
+      <column name="nombre" value="TEC. ESPECIALSITA DE COMEDORES UNIVERS." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2013" />
+      <column name="nombre" value="TEC. GRADO MEDIO DE INFORMACION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA714" />
+      <column name="nombre" value="TECN. ARQUEOLOGIA ADM. LOCAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC076" />
+      <column name="nombre" value="TÉCN. ESPECIALISTA: PROCESOS DE BIOMASA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC077" />
+      <column name="nombre" value="TECN. ESPECIALISTAS: COMUNICA. Y DIFUSIÓN DE INV. Y TRANSFER" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC078" />
+      <column name="nombre" value="TECN. ESPECIALISTAS: INVESTIGACIÓN Y TRANSFERENCIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA401" />
+      <column name="nombre" value="TECNICO (A..LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CD302" />
+      <column name="nombre" value="TECNICO AUXILIAR (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC403" />
+      <column name="nombre" value="TECNICO AUXILIAR DE BIBLIOTECAS (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA724" />
+      <column name="nombre" value="TECNICO DE ADMINISTRACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB407" />
+      <column name="nombre" value="TECNICO DE ARCHIVO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB302" />
+      <column name="nombre" value="TECNICO DE ARCHIVOS Y BIBLIOTECAS (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="A2TEO" />
+      <column name="nombre" value="TÉCNICO DE ENTREVISTAS OCUPACIONALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA910" />
+      <column name="nombre" value="TECNICO DE GESTION (U.MIGUEL HERNANDEZ)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC402" />
+      <column name="nombre" value="TECNICO DEPORTIVO (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC903" />
+      <column name="nombre" value="TÉCNICO EN INFORMÁTICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA706" />
+      <column name="nombre" value="TECNICO ENTREVISTADOR AY. ALCANTARILLA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA121" />
+      <column name="nombre" value="TECNICO (ESC.TRAFICO)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="TE02" />
+      <column name="nombre" value="TÉCNICO ESPECIALISTA OTRAS ADMINISTRACIONES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB303" />
+      <column name="nombre" value="TECNICO G.MEDIO ARTES PLASTICAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CC202" />
+      <column name="nombre" value="TÉCNICO LABORAL ADM. ESTADO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FB703" />
+      <column name="nombre" value="TECNICO MEDIO DE INVESTIGACION (U. M. HERNANDEZ)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="EXTML" />
+      <column name="nombre" value="TÉCNICO MEDIO DE LABORATORIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB409" />
+      <column name="nombre" value="TÉCNICO MEDIO ESPECIALISTA EN MENORES (IVASS)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA709" />
+      <column name="nombre" value="TECNICO O TITULADO SUPERIOR GRADO DOCTOR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA715" />
+      <column name="nombre" value="TÉCNICO SUPERIOR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA703" />
+      <column name="nombre" value="TÉCNICO SUPERIOR INVESTIGACIÓN Y LABORATORIOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA701" />
+      <column name="nombre" value="TECNICO SUPERIOR (U.ALICANTE)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA304" />
+      <column name="nombre" value="TECNICO TITULADO SUPERIOR BIBLIOTECARIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FS709" />
+      <column name="nombre" value="TÉCNICO, TITULADO SUPERIOR, FUNDACIÓN SÉNECA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LB703" />
+      <column name="nombre" value="TÉCNICO TITULADO SUPERIOR NIVEL 1" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA702" />
+      <column name="nombre" value="TECNICO (U. M.HERNANDEZ)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD080" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: ALBAÑILERÍA (A EXTINGUIR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD051" />
+      <column name="nombre" value="TECNICOS AUXILIARES: ALMACEN DE PUBLICACIONES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD015" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: ANIMALES DE EXPERIMENTACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD010" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: APOYO TÉCNICO A P.I." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD057" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: AUXILIAR DE CLÍNICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD002" />
+      <column name="nombre" value="TECNICOS AUXILIARES: BIBLIOTECAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD082" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: CALEFACCIÓN-FONTANERÍA (A EXTINGUIR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD081" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: CARPINTERIA Y CERRAJERÍA (A EXTINGUIR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD083" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: CONDUCTORES ( A EXTINGUIR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD084" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: CONSERJES ( A EXTINGUIR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD044" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: CORREOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD095" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: CULTURA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC003" />
+      <column name="nombre" value="TECNICOS AUXILIARES DE INFORMATICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD086" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: ELECTRICIDAD ( A EXTINGUIR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD087" />
+      <column name="nombre" value="TECNICOS AUXILIARES: ELECTROMECNICA (A EXTINGUIR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD093" />
+      <column name="nombre" value="TECNICOS AUXILIARES: ELEMENTOS EDIFICACION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD020" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: EXPERIENCIAS AGRÍCOLAS Y FORESTALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD059" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: FABRICACIÓN MECÁNICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD088" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: FRIO (A EXTINGUIR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD089" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: GOBERNANTA ( A EXTINGUIR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD017" />
+      <column name="nombre" value="TECNICOS AUXILIARES: GRANDES ANIMALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD090" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: JARDINERÍA (A EXTINGUIR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD038" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: LABORATORIOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD048" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: LABORATORIOS DE DISECCIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD091" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: LIMPIEZA ( A EXTINGUIR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD016" />
+      <column name="nombre" value="TECNICOS AUXILIARES: NECROPSIAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD096" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: PROMOCIÓN EDUCATIVA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD050" />
+      <column name="nombre" value="TECNICOS AUXILIARES: PUBLICACIONES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD092" />
+      <column name="nombre" value="TECNICOS AUXILIARES: REPROGRAFIA (A EXTINGUIR)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD058" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: TELEFONÍA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FD094" />
+      <column name="nombre" value="TÉCNICOS AUXILIARES: TRANSPORTE DE INVESTIGACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA004" />
+      <column name="nombre" value="TECNICOS DE GESTIÓN : AUDITORIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FA001" />
+      <column name="nombre" value="TECNICOS DE GESTION DE LA UNIVERSIDAD DE MURCIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC019" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: ACTIVIDADES E INSTAL. DEPORTIVAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC074" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS: ADM. ACTIVID. SOCIO-CULTURALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC041" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: ALMACEN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC014" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: ANÁLISIS DE IMÁGENES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC015" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: ANIMALES DE EXPERIMENTACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC080" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: APOYO TÉCNICO A P.I." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC061" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS: BIOLOGIA MOLECULAR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC042" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: CABLES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC302" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC034" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: COMEDORES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC043" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: CONDUCTORES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC066" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS: CONTROL DE ACCESOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC044" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: CORREOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC018" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: CULTIVO DE TEJIDOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC069" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS: CULTURA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC045" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: DELINEACIÓN, PROYECCIÓN Y DISEÑO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC046" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: ELEMENTOS DE EDIFICACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC020" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: EXPERIENCIAS AGRÍCOLAS Y FORESTALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC059" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: FABRICACIÓN MECÁNICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC047" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: FLUIDOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC075" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: GOBERNANTA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC017" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS: GRANDES ANIMALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC026" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: INSTRUMENTACIÓN CIENTÍFICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC027" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: INSTRUMENTACIÓN PSICOLÓGICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC054" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: LABORATORIOS DE BIOLOGÍA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC048" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: LABORATORIOS DE DISECCIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC060" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: LABORATORIOS DE MEDICINA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC053" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: LABORATORIOS DE QUÍMICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC055" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: LABORATORIOS SOCIO-SANITARIOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC049" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: LIMPIEZA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC072" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS: MEDIO AMBIENTE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC031" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: MEDIOS AUDIOVISUALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC030" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: MICROSCOPÍA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC068" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS: MUSEOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC016" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS: NECROPSIAS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC056" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: PATOLOGÍA CLÍNICA VETERINARIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC040" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: PREVENCIÓN RIESGOS LABORALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC073" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS: PROCESOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC070" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS: PROMOCIÓN EDUCATIVA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC064" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS: PROMOCION PARTICIPACION ESTUDIANTIL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC065" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS: PROTOCOLO Y COMUNICACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC050" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: PUBLICACIONES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC032" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: RADIOPROTECCIÓN Y RESÍDUOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC079" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: RELACIONES INTERNACIONALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC067" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS: REPROGRAFÍA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC039" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: TALLER DE ELECTRONICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC062" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS: TELEFONÍA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC051" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: TRANSPORTE" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC071" />
+      <column name="nombre" value="TECNICOS ESPECIALISTAS: TRANSPORTE DE INVESTIGACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FC052" />
+      <column name="nombre" value="TÉCNICOS ESPECIALISTAS: TRATAMIENTO DEL VIDRIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L6010" />
+      <column name="nombre" value="TELEFONISTA CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5017" />
+      <column name="nombre" value="TELEFONISTA (CONV.ANTIG.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="FDL01" />
+      <column name="nombre" value="TELEFONISTA (LABORAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA735" />
+      <column name="nombre" value="TENIENTE DE LA ESCALA DE COMPLEMENTO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="T001" />
+      <column name="nombre" value="TIT. GRADO MEDIO (A.LOCAL)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB403" />
+      <column name="nombre" value="TIT. GRADO MEDIO AY. MURCIA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2017" />
+      <column name="nombre" value="TIT. GRADO MEDIO CULTIVOS CELULARES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2014" />
+      <column name="nombre" value="TIT. GRADO MEDIO LABORATORIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2016" />
+      <column name="nombre" value="TIT. GRADO MEDIO RELAC. INTERNACIONALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2015" />
+      <column name="nombre" value="TIT. GRADO MEDIO RELAC.INSTITUCIONALES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2018" />
+      <column name="nombre" value="TIT. GRADO MEDIO RESTAURACION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1010" />
+      <column name="nombre" value="TIT. SUP. ANIMALARIO" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1004" />
+      <column name="nombre" value="TIT. SUP. CIENCIAS INFORMACION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1006" />
+      <column name="nombre" value="TIT. SUP. CULT.CELULARES" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1002" />
+      <column name="nombre" value="TIT. SUP. EDUCACION FISICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1012" />
+      <column name="nombre" value="TIT. SUP. GEST.CULTURAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1013" />
+      <column name="nombre" value="TIT. SUP. INFORM.INTERNA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1014" />
+      <column name="nombre" value="TIT. SUP. INSTRUMENTACION PSICOLOGICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1007" />
+      <column name="nombre" value="TIT. SUP. INTR.CIENTIFICA" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1008" />
+      <column name="nombre" value="TIT. SUP. MICROSCOCOPIA ELECTRONICA." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="P1003" />
+      <column name="nombre" value="TIT. SUP. PROGRAMAS EUROPEOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1011" />
+      <column name="nombre" value="TIT. SUP. PROM.EDUCAT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1009" />
+      <column name="nombre" value="TIT. SUP. REC.AUDIOVIS." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="LA903" />
+      <column name="nombre" value="TIT. SUPERIOR ACTIV. TEC. Y PROF. (CSIC)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1101" />
+      <column name="nombre" value="TIT. SUPERIOR DE PROGRAMAS EUROPEOS" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="P1001" />
+      <column name="nombre" value="TIT. SUPERIOR EN PROY. DE INVESTIGACION" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1102" />
+      <column name="nombre" value="TIT. SUPERIOR RAMON Y CAJAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L2019" />
+      <column name="nombre" value="TITULADO DE GRADO MEDIO ESP.: GESTIÓN DE LA INVESTIGACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB702" />
+      <column name="nombre" value="TITULADO MEDIO ACTIVIDADES TECN. Y PROFESIONALES (CSIC)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1015" />
+      <column name="nombre" value="TITULADO SUP. ESP.: TRANSFERENCIA RESULTADOS INVESTIGACIÓN" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA736" />
+      <column name="nombre" value="TITULADO SUP.: ACTIVIDADES TECN. Y PROF." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L1005" />
+      <column name="nombre" value="TITULADO SUPERIOR" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA705" />
+      <column name="nombre" value="TITULADO SUPERIOR INEM" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CA701" />
+      <column name="nombre" value="TITULADO SUPERIOR (U.CASTILLA- LA MANCHA)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CB304" />
+      <column name="nombre" value="TRABAJADOR SOCIAL" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE305" />
+      <column name="nombre" value="VIGILANTES (C.A.R.M.)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L7006" />
+      <column name="nombre" value="VIGILANTES CONV. ANT." />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L5025" />
+      <column name="nombre" value="VIGILANTES (HASTA 4/ 08/ 94)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="L6011" />
+      <column name="nombre" value="VIGILANTES (HAS.30.6.92)" />
+    </insert>
+    <insert tableName="categoria_profesional">
+      <column name="id" value="CE201" />
+      <column name="nombre" value="VIGILANTES MUSEOS (A.ESTADO)" />
+    </insert>
+  </changeSet>
+
+</databaseChangeLog>
