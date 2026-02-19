@@ -82,7 +82,6 @@ jobs:
     needs: build
     uses: herculesproject/sgi/.github/workflows/update-sgi-deploy-repo.yml@ci
     with:
-      service-name: 'sgi-external-sgp-reference-imp'
-      service-version: ${{ needs.build.outputs.VERSION }}
+      changed-modules: 'SGP'
       sha: ${{ github.sha }}
     secrets: inherit
