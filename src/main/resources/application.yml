@@ -70,6 +70,13 @@ spring:
             provider: keycloak
             redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
             scope: "openid,profile"
+          sgp-service:
+            authorization-grant-type: client_credentials
+            client-id: sgp-service
+            client-name: SGI (service login)
+            client-secret: ac508812-a753-4454-8c2c-704be8a81220
+            provider: keycloak
+            scope: sgi-cnf
         provider:
           keycloak:
             issuer-uri: http://sgi-auth:8080/auth/realms/sgi
