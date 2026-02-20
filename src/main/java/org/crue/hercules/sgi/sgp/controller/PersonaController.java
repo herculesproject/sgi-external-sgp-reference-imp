@@ -12,7 +12,7 @@ import org.crue.hercules.sgi.sgp.enums.TipoColectivo;
 import org.crue.hercules.sgi.sgp.model.Persona;
 import org.crue.hercules.sgi.sgp.service.PersonaFormlyService;
 import org.crue.hercules.sgi.sgp.service.PersonaService;
-import org.springframework.boot.configurationprocessor.json.JSONObject;
+import org.json.JSONObject;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
