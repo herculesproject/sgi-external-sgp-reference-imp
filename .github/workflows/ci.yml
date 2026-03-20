@@ -24,7 +24,7 @@ jobs:
         cache: maven
     
     - name: Package
-      run: mvn -B package
+      run: mvn -B package -Pprod
 
     - name: Log in to Docker Hub
       uses: docker/login-action@v3
@@ -80,7 +80,7 @@ jobs:
   call_update_sgi_deploy:
     name: Update sgi-deploy repo
     needs: build
-    uses: herculesproject/sgi/.github/workflows/update-sgi-deploy-repo.yml@ci
+    uses: herculesproject/sgi/.github/workflows/update-sgi-deploy-repo.yml@1.0.0
     with:
       changed-modules: 'SGP'
       sha: ${{ github.sha }}
