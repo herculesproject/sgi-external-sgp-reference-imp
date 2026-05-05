@@ -44,7 +44,7 @@ public class PersonaController {
 
   public static final String PATH_AUTOCOMPLETE = PATH_PERSONAS + "Fast";
   public static final String PATH_FORMLY = PATH_PERSONAS + PATH_DELIMITER + "formly";
-  public static final String PATH_FORMLY_ID = PATH_FORMLY + PATH_ID;
+  public static final String PATH_FORMLY_ID = PATH_FORMLY + PATH_DELIMITER + "{id}";
 
   private final PersonaService service;
   private final PersonaFormlyService personaFormlyService;
